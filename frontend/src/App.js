@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
-const API_URL = "http://127.0.0.1:8000"; // ganti jika backend di host lain
+const API_URL = "https://andyituhermawan-padi.hf.space"; // ganti jika backend di host lain
 
 const COLORS = {
   primary: "#1a3c5e",
@@ -794,6 +794,8 @@ export default function App() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+
+
 
       if (!res.ok) {
         const errText = await res.text();
