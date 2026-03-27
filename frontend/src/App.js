@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
-const API_URL = "/api";
+const API_URL = "";
 
 const COLORS = {
   primary: "#1a3c5e",
@@ -789,7 +789,8 @@ export default function App() {
         status_kepemilikan_rumah: form.status_kepemilikan_rumah,
       };
 
-      const res = await fetch(`${API_URL}/predict`, {
+
+      const res = await fetch(`${API_URL}/api/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
