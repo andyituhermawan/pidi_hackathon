@@ -13,13 +13,18 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+import os # Tambahkan import ini di atas
 
-# FIX #2: Bungkus load model dengan error handling agar server tidak crash saat startup
+# Ganti logika lama dengan ini:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "best_model.pkl")
+
 try:
-    model = pickle.load(open("best_model.pkl", "rb"))
+    with open(MODEL_PATH, "rb") as f:
+        model = pickle.load(f)
 except FileNotFoundError:
-    raise RuntimeError("Model file 'best_model.pkl' tidak ditemukan! Pastikan file ada di direktori yang sama.")
-
+    model = None
+    print(f"Model file '{MODEL_PATH}' tidak ditemukan!")
 
 @app.get("/")
 def home():
