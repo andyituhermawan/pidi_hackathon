@@ -26,7 +26,7 @@ except FileNotFoundError:
     model = None
     print(f"Model file '{MODEL_PATH}' tidak ditemukan!")
 
-@app.get("/")
+@app.get("/api").
 def home():
     return {"message": "API jalan"}
 
@@ -65,8 +65,7 @@ def build_df(data):
         "status_kepemilikan_rumah": str(data.get("status_kepemilikan_rumah", "milik_sendiri")),
     }])
 
-
-@app.post("/predict")
+@app.post("/api/predict")
 def predict(data: dict):
     # Build dataframe dari input
     df = build_df(data)
