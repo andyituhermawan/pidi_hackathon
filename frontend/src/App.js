@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
-const API_URL = "";
+const API_URL = "https://andyituhermawan-padi.hf.space";
 
 const COLORS = {
   primary: "#1a3c5e",
@@ -789,12 +789,12 @@ export default function App() {
         status_kepemilikan_rumah: form.status_kepemilikan_rumah,
       };
 
-
-      const res = await fetch(`${API_URL}/api/predict`, {
+      const res = await fetch(`${API_URL}/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
+
 
       if (!res.ok) {
         const errText = await res.text();
