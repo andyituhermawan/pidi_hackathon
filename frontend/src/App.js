@@ -743,6 +743,7 @@ function ScreenPortfolio() {
   );
 }
 
+
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 export default function App() {
   const [screen, setScreen] = useState("onboarding");
@@ -750,63 +751,46 @@ export default function App() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  
+  // State tambahan untuk SHAP dan Probability
+  const [probability, setProbability] = useState(null);
+  const [shapData, setShapData] = useState([]);
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    if (e && e.preventDefault) e.preventDefault();
     setLoading(true);
     setError(null);
-    try {
-      // Map form fields ke payload sesuai build_df di main.py
-      const payload = {
-        transaksi: form.transaksi,
-        pendapatan: form.pendapatan,
-        growth: form.growth,
-        volatilitas: form.volatilitas,
-        pinjaman: form.jumlah_pinjaman_aktif,
-        nib: form.nib,
-        ojol_bulan_aktif: form.ojol_bulan_aktif,
-        memiliki_npwp: form.memiliki_npwp,
-        aktif_marketplace: form.aktif_marketplace,
-        slik_kolektibilitas: form.slik_kolektibilitas,
-        memiliki_kendaraan_roda4: form.memiliki_kendaraan_roda4,
-        marketplace_order_per_bulan: form.marketplace_order_per_bulan,
-        avg_tagihan_listrik_bulan: form.avg_tagihan_listrik_bulan,
-        memiliki_kendaraan_roda2: form.memiliki_kendaraan_roda2,
-        saldo_rata_rata_bulan: form.saldo_rata_rata_bulan,
-        memiliki_pirt: form.memiliki_pirt,
-        pernah_kredit_macet: form.pernah_kredit_macet,
-        aktif_ojol: form.aktif_ojol,
-        ojol_avg_order_per_hari: form.ojol_avg_order_per_hari,
-        marketplace_lama_bergabung_bulan: form.marketplace_lama_bergabung_bulan,
-        marketplace_rating: form.marketplace_rating,
-        konsistensi_bayar_listrik: form.konsistensi_bayar_listrik,
-        lama_usaha_tahun: form.lama_usaha_tahun,
-        jumlah_rekening_bank: form.jumlah_rekening_bank,
-        sertifikasi_halal: form.sertifikasi_halal,
-        ojol_rating: form.ojol_rating,
-        konsistensi_bayar_air: form.konsistensi_bayar_air,
-        kota: form.kota,
-        kategori_usaha: form.kategori_usaha,
-        status_kepemilikan_rumah: form.status_kepemilikan_rumah,
-      };
 
-      const res = await fetch(`${API_URL}/predict`, {
+    // GANTI URL INI dengan Direct URL Hugging Face Anda
+    const API_URL = "https://username-project.hf.space"; 
+
+    try {
+      const response = await fetch(`${API_URL}/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
+        // Mengirim data dari state 'form'
+        body: JSON.stringify(form), 
       });
 
-
-
-      if (!res.ok) {
-        const errText = await res.text();
-        throw new Error(`Backend error ${res.status}: ${errText}`);
+      if (!response.ok) {
+        const errText = await response.text();
+        throw new Error(`Backend error ${response.status}: ${errText}`);
       }
 
-      const data = await res.json();
-      setResult(data);
-      setScreen("result");
-    } catch (e) {
-      setError(`Gagal terhubung ke backend: ${e.message}. Pastikan server FastAPI berjalan di ${API_URL}`);
+      const data = await response.json();
+
+      if (data.error) {
+        setError(data.error);
+      } else {
+        // Masukkan semua data ke masing-masing state
+        setResult(data.prediction);      // 0 atau 1
+        setProbability(data.probability); // Skor Probabilitas
+        setShapData(data.shap_values);    // Data Grafik SHAP
+        
+        setScreen("result");             // Pindah ke halaman hasil
+      }
+    } catch (err) {
+      setError(`Gagal terhubung ke backend: ${err.message}`);
     } finally {
       setLoading(false);
     }
@@ -825,7 +809,16 @@ export default function App() {
             error={error}
           />
         )}
-        {screen === "result" && <ScreenResult form={form} result={result} />}
+        
+        {screen === "result" && (
+          <ScreenResult 
+            form={form} 
+            result={result} 
+            probability={probability} 
+            shapData={shapData} 
+          />
+        )}
+        
         {screen === "portfolio" && <ScreenPortfolio />}
       </div>
     </div>
