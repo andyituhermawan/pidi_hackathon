@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
-const API_URL = "http://127.0.0.1:8000"; // ganti jika backend di host lain
+const API_URL = "/api";
 
 const COLORS = {
   primary: "#1a3c5e",
