@@ -1,0 +1,501 @@
+nama_usaha,nama_pemilik,nik,kota,kategori_usaha,lama_usaha_tahun,memiliki_nib,memiliki_npwp,memiliki_pirt,sertifikasi_halal,slik_kolektibilitas,pernah_kredit_macet,jumlah_pinjaman_aktif,qris_avg_transaksi_per_hari,qris_avg_pendapatan_bulan,qris_volatilitas_pct,qris_tren_6bulan_pct,aktif_marketplace,marketplace_rating,marketplace_order_per_bulan,marketplace_lama_bergabung_bulan,aktif_ojol,ojol_avg_order_per_hari,ojol_rating,ojol_bulan_aktif,konsistensi_bayar_listrik,konsistensi_bayar_air,avg_tagihan_listrik_bulan,status_kepemilikan_rumah,memiliki_kendaraan_roda4,memiliki_kendaraan_roda2,saldo_rata_rata_bulan,jumlah_rekening_bank,credit_score,label_risiko,gagal_bayar
+UD Sumber Pangan,Dewi Santoso,1523809042611635,Yogyakarta,Minuman,7,1,1,0,1,3,0,0,12,5370380,7.7,35.6,1,3.8,24,12,1,24,4.5,26,2,0,324283,milik_keluarga,0,0,5804392,1,689,Sedang,0
+UD Abadi Pangan,Agus Susanto,1566644413142286,Makassar,Sambal & bumbu,2,1,0,0,0,1,0,1,5,3374369,7.6,9.4,1,3.8,29,51,1,12,4.3,2,3,3,205198,kos,1,1,4133862,1,725,Rendah,0
+UD Barokah Food,Nur Wijaya,2113164382590023,Jakarta,Sambal & bumbu,4,0,1,1,0,3,0,2,11,6931787,26.7,-8.9,1,4.8,1,57,1,17,4.4,32,2,3,180017,kos,1,1,797906,1,628,Sedang,0
+UD Mulia Olahan,Dewi Cahyono,1473600017247252,Jakarta,Minuman,5,0,0,0,0,1,0,0,12,6128220,2.0,-9.4,0,0.0,0,0,0,0,0.0,0,3,3,500814,kos,1,0,960292,3,631,Sedang,0
+UD Karya Food,Eko Rahayu,5739335117215865,Jakarta,Minuman,5,1,1,0,0,1,0,0,7,6457775,21.1,7.2,1,4.9,18,52,1,7,4.9,37,3,3,319189,kos,0,1,2065104,1,726,Rendah,0
+UD Berkah Food,Mega Kurniawan,5294495278986454,Semarang,Katering,3,1,0,0,0,1,0,0,9,6215823,16.1,9.2,0,0.0,0,0,0,0,0.0,0,0,1,522699,kos,1,1,6605782,1,709,Rendah,0
+UD Jaya Catering,Siti Santoso,9603998287386058,Medan,Olahan daging,1,1,1,1,0,2,0,1,9,3156164,23.0,32.9,1,4.8,6,24,0,0,0.0,0,3,0,439397,kontrak,0,1,9306115,2,751,Rendah,0
+UD Sejahtera Olahan,Andi Susanto,9365459559542132,Semarang,Kue & roti,4,0,1,1,0,1,0,2,4,6207360,15.1,19.6,1,4.2,72,58,1,6,4.9,35,3,3,396801,kontrak,0,0,4989673,1,738,Rendah,0
+UD Jaya Catering,Nur Setiawan,1752491768769383,Medan,Makanan ringan,2,1,0,0,1,1,0,0,10,3790499,20.9,6.3,1,3.4,67,11,0,0,0.0,0,3,3,243466,kos,0,0,2232343,1,728,Rendah,0
+UD Sejahtera Catering,Hadi Santoso,2194720963371138,Palembang,Olahan daging,3,0,0,1,1,5,1,2,14,5830321,10.6,-0.0,1,4.5,23,13,1,8,4.8,6,3,3,168383,milik_sendiri,0,0,2544927,1,576,Tinggi,1
+UD Sumber Snack,Eko Susanto,2414612145732916,Semarang,Sambal & bumbu,8,0,0,1,1,1,0,0,8,5211682,17.5,50.2,1,5.0,55,27,0,0,0.0,0,3,3,281463,kontrak,0,1,2682973,2,738,Rendah,0
+UD Makmur Snack,Eko Kurniawan,4381005651339607,Semarang,Minuman,3,1,1,0,0,1,0,1,2,6111670,22.9,14.4,1,4.4,47,8,0,0,0.0,0,3,2,579787,kontrak,0,1,7120343,1,761,Rendah,0
+UD Mulia Pangan,Nur Hidayat,8588743091649949,Yogyakarta,Olahan daging,6,1,1,0,0,1,0,3,5,4650104,19.5,-5.0,1,3.6,89,10,0,0,0.0,0,2,2,483343,milik_sendiri,0,1,2624242,1,655,Sedang,0
+UD Karya Pangan,Mega Pratama,8840776334805377,Bandung,Kue & roti,2,1,0,0,0,1,0,0,1,3443905,21.8,1.6,0,0.0,0,0,0,0,0.0,0,3,3,267437,milik_keluarga,0,0,3868939,2,692,Sedang,0
+UD Barokah Snack,Budi Saputra,4400514553353147,Semarang,Sambal & bumbu,5,1,0,1,1,2,0,1,13,6627245,8.7,-8.2,0,0.0,0,0,0,0,0.0,0,3,2,283165,milik_sendiri,0,1,8034395,1,696,Sedang,0
+UD Sejahtera Olahan,Lina Utama,6516338387960992,Yogyakarta,Makanan ringan,8,1,1,0,0,1,0,0,11,6405028,12.1,-31.1,0,0.0,0,0,0,0,0.0,0,3,2,210636,milik_sendiri,0,1,2297566,1,703,Rendah,0
+UD Barokah Pangan,Tono Wulandari,1793622389017913,Surabaya,Makanan ringan,1,1,1,1,0,1,0,0,5,3802991,12.3,9.7,1,3.4,46,9,0,0,0.0,0,3,3,117937,milik_sendiri,1,1,5671181,1,767,Rendah,0
+UD Jaya Catering,Agus Wijaya,7315685014608124,Bandung,Kue & roti,1,0,1,1,0,1,0,0,2,3344805,15.2,31.7,1,4.4,60,7,1,10,4.3,46,1,2,365240,milik_keluarga,0,1,6701364,2,779,Rendah,0
+UD Barokah Food,Hendra Saputra,6615115787791192,Palembang,Kue & roti,3,1,0,0,0,2,0,0,4,5372531,31.6,-19.5,1,4.1,25,14,0,0,0.0,0,3,3,608761,kontrak,0,1,4190325,3,597,Tinggi,0
+UD Sejahtera Pangan,Dian Rahayu,4938659063013850,Semarang,Minuman,1,1,1,1,0,1,0,1,5,2739327,14.5,5.8,0,0.0,0,0,1,16,4.8,34,2,0,610644,kontrak,1,0,9862353,1,729,Rendah,0
+UD Jaya Food,Andi Kurniawan,1673151941691902,Makassar,Makanan ringan,5,0,1,0,0,1,0,1,8,3557215,6.6,-5.6,0,0.0,0,0,0,0,0.0,0,3,3,441185,milik_keluarga,0,1,8996359,1,701,Rendah,0
+UD Sejahtera Catering,Dewi Wulandari,7155792142190591,Jakarta,Sambal & bumbu,7,0,1,0,1,1,0,1,8,5459632,23.4,12.8,0,0.0,0,0,1,1,4.3,3,0,3,259599,milik_sendiri,0,1,4789291,1,708,Rendah,0
+UD Barokah Catering,Fajar Permata,3812396012309179,Surabaya,Olahan daging,3,0,1,1,0,1,0,0,13,4407511,31.5,2.4,1,4.4,59,43,0,0,0.0,0,3,3,132577,milik_sendiri,1,1,1588549,1,730,Rendah,0
+UD Jaya Snack,Agus Saputra,3783753987876622,Surabaya,Sambal & bumbu,2,0,1,1,0,1,0,0,5,2937664,5.4,-15.4,1,4.4,40,8,0,0,0.0,0,3,3,507059,milik_sendiri,1,1,1730324,2,707,Rendah,0
+UD Makmur Olahan,Siti Utama,1282287114681277,Palembang,Katering,3,1,1,0,0,1,0,1,1,3977270,37.7,-9.7,1,3.7,38,13,1,11,3.6,11,3,2,417082,kos,0,1,4637923,1,752,Rendah,0
+UD Karya Food,Wati Setiawan,1363588817423293,Yogyakarta,Katering,5,1,1,1,0,3,0,4,3,5059925,22.2,-7.5,1,4.0,61,21,0,0,0.0,0,3,3,302565,kontrak,0,1,729908,1,643,Sedang,0
+UD Barokah Pangan,Dewi Nugroho,9393888157468523,Surabaya,Kue & roti,1,0,0,1,0,1,0,0,7,2260697,28.3,25.2,1,4.8,51,47,1,19,4.2,22,3,3,277506,milik_sendiri,1,1,4806825,1,728,Rendah,0
+UD Jaya Pangan,Yuli Rahayu,2370227639387379,Bandung,Minuman,4,0,1,0,1,4,1,3,5,5333228,32.7,24.4,0,0.0,0,0,0,0,0.0,0,3,3,440065,milik_sendiri,0,0,9064286,1,487,Sangat Tinggi,1
+UD Barokah Pangan,Eko Pratama,3387312331572728,Semarang,Katering,4,1,1,1,0,5,1,1,6,6537373,27.7,0.3,1,4.2,62,35,1,1,4.0,46,3,2,226006,milik_sendiri,0,1,4187460,2,607,Sedang,0
+UD Barokah Food,Hadi Nugroho,2174840457629156,Semarang,Makanan ringan,4,0,0,0,1,1,0,1,6,3606971,16.9,23.4,1,4.6,19,23,0,0,0.0,0,3,0,385884,kontrak,0,1,3943156,1,706,Rendah,0
+UD Sumber Pangan,Fajar Permata,3268510158365318,Makassar,Sambal & bumbu,2,1,0,0,0,1,0,1,11,4312985,30.2,2.4,1,4.6,2,46,0,0,0.0,0,3,1,167026,milik_sendiri,0,1,6559579,3,722,Rendah,0
+UD Abadi Snack,Hendra Utama,3102354066533192,Palembang,Sambal & bumbu,5,1,1,0,0,1,0,0,5,6224852,20.5,0.1,0,0.0,0,0,1,16,5.0,21,3,3,684276,milik_sendiri,1,0,5574506,1,743,Rendah,0
+UD Karya Snack,Andi Santoso,3032610509673745,Jakarta,Kue & roti,1,1,1,1,1,3,0,0,6,3274137,28.9,5.9,1,4.5,38,2,0,0,0.0,0,2,0,246942,kontrak,1,1,555067,3,691,Sedang,0
+UD Mulia Olahan,Nur Saputra,3860396431286872,Yogyakarta,Olahan daging,2,1,1,1,0,1,0,1,10,4643512,30.0,9.3,0,0.0,0,0,1,8,4.7,22,3,3,447259,kos,0,0,2634297,1,766,Rendah,0
+UD Karya Olahan,Rini Rahayu,6534097844971533,Jakarta,Kue & roti,7,1,0,0,0,1,0,0,5,6035804,7.1,-3.3,0,0.0,0,0,0,0,0.0,0,2,3,170296,kos,0,0,9681862,2,715,Rendah,0
+UD Berkah Snack,Nur Lestari,6384245672060921,Surabaya,Olahan daging,5,1,0,0,0,1,0,3,9,5520404,25.9,5.3,1,4.6,34,57,1,4,5.0,9,3,3,325512,kontrak,0,0,4976335,1,696,Sedang,0
+UD Sejahtera Food,Dewi Kurniawan,8647137799495001,Palembang,Kue & roti,1,0,0,1,0,3,0,1,9,2120588,16.2,16.8,1,4.8,30,52,0,0,0.0,0,2,3,482692,kos,1,0,980700,2,654,Sedang,0
+UD Karya Snack,Agus Hidayat,1292694422969217,Makassar,Kue & roti,2,1,0,0,1,3,0,0,8,4613504,19.4,6.9,1,3.8,40,36,1,1,4.1,40,3,1,515143,kontrak,0,1,3424462,1,674,Sedang,0
+UD Barokah Food,Fajar Wijaya,3785420470638683,Jakarta,Kue & roti,2,1,0,1,0,1,0,2,3,4516296,19.3,5.6,1,4.5,26,3,1,6,4.5,11,1,3,464493,milik_keluarga,1,0,100000,1,726,Rendah,0
+UD Berkah Catering,Fajar Wulandari,4893846054951867,Bandung,Olahan daging,2,0,1,1,1,2,0,0,12,2522882,18.9,12.4,0,0.0,0,0,0,0,0.0,0,1,3,329263,milik_sendiri,1,0,100000,2,628,Sedang,0
+UD Abadi Food,Hendra Cahyono,9415415510810027,Semarang,Olahan daging,2,0,1,0,1,1,0,1,16,3578400,33.2,15.0,0,0.0,0,0,0,0,0.0,0,2,3,250107,kontrak,0,0,6946813,2,679,Sedang,0
+UD Abadi Olahan,Agus Utama,2101697049707271,Surabaya,Kue & roti,1,0,0,1,0,1,0,1,8,4841289,4.3,4.1,1,4.7,30,57,0,0,0.0,0,1,3,188348,kontrak,0,1,3986584,2,717,Rendah,0
+UD Makmur Food,Andi Permata,4852337301004322,Makassar,Katering,3,0,0,0,1,3,0,3,3,4214651,2.0,-2.1,1,4.7,43,47,1,17,4.1,39,3,0,575569,milik_sendiri,0,1,5556630,1,632,Sedang,0
+UD Mulia Pangan,Lina Setiawan,3595729589439568,Jakarta,Minuman,5,0,1,1,0,1,0,2,8,5508559,2.0,7.8,1,4.1,87,19,0,0,0.0,0,1,2,365505,kos,1,1,7473654,1,666,Sedang,0
+UD Jaya Pangan,Nur Wijaya,9839674838058545,Yogyakarta,Minuman,4,1,0,1,1,1,0,1,11,6639720,28.7,-18.9,1,4.3,73,2,0,0,0.0,0,1,3,393235,milik_sendiri,0,1,5018421,2,717,Rendah,0
+UD Mandiri Pangan,Wati Kurniawan,8616762671488387,Bandung,Minuman,5,1,1,1,0,1,0,1,5,6455952,10.3,1.8,1,4.2,3,44,0,0,0.0,0,0,3,524805,kontrak,1,0,6199306,1,791,Rendah,0
+UD Mandiri Olahan,Agus Nugroho,4461268725236733,Bandung,Olahan daging,1,1,1,0,0,3,0,3,7,3729796,19.3,-32.1,1,5.0,15,37,0,0,0.0,0,3,2,438009,kontrak,0,0,4771927,1,605,Sedang,0
+UD Jaya Catering,Eko Susanto,1894475077134901,Jakarta,Olahan daging,8,1,1,1,0,3,0,0,9,8667706,16.9,-20.1,1,4.5,21,54,1,5,4.3,6,3,2,330887,milik_sendiri,0,1,7859194,1,715,Rendah,0
+UD Mandiri Pangan,Dian Lestari,6968602525388547,Semarang,Katering,6,1,1,0,0,2,0,0,12,7748958,9.1,-22.4,0,0.0,0,0,1,17,4.1,32,1,2,461660,kontrak,0,0,9320342,1,646,Sedang,0
+UD Abadi Olahan,Siti Susanto,6241599697364444,Jakarta,Minuman,6,0,0,0,0,2,0,0,11,5793062,26.5,20.7,1,4.9,27,14,1,23,4.5,11,3,3,256618,kontrak,0,1,4598712,1,608,Sedang,0
+UD Mulia Food,Siti Saputra,7388982218750353,Surabaya,Minuman,6,1,1,0,1,1,0,0,11,5880520,16.7,5.2,1,4.9,46,28,1,14,4.2,10,3,3,117328,kos,1,1,4472907,2,774,Rendah,0
+UD Berkah Pangan,Dian Kurniawan,5251645892564523,Jakarta,Kue & roti,8,1,0,0,0,1,0,1,6,6361885,15.6,-13.9,1,5.0,67,27,1,25,4.1,47,2,3,561776,kos,0,1,4960480,3,671,Sedang,0
+UD Jaya Olahan,Agus Rahayu,1845118117023945,Bandung,Olahan daging,4,1,0,0,0,1,0,1,9,6866824,20.3,12.4,0,0.0,0,0,0,0,0.0,0,3,3,269119,milik_sendiri,0,1,3683424,1,675,Sedang,0
+UD Barokah Olahan,Hendra Nugroho,6462089983951843,Makassar,Minuman,2,0,0,1,1,1,0,1,5,4630932,25.2,19.8,1,4.7,35,10,0,0,0.0,0,2,0,304356,kontrak,0,0,2799158,3,683,Sedang,0
+UD Jaya Pangan,Mega Nugroho,5495962004160350,Jakarta,Sambal & bumbu,4,1,1,1,0,1,0,0,11,3332892,8.4,12.6,1,4.3,1,3,1,17,4.3,31,3,1,317587,milik_keluarga,0,1,7145008,2,781,Rendah,0
+UD Sumber Snack,Dian Susanto,9993108869524750,Semarang,Katering,5,0,1,0,1,4,1,2,12,7097022,26.7,2.2,1,4.3,13,36,1,13,4.6,12,0,3,259669,milik_sendiri,0,1,2803210,3,504,Tinggi,1
+UD Sumber Pangan,Joko Kurniawan,3095426799443405,Palembang,Sambal & bumbu,5,1,1,1,1,1,0,0,10,5414463,32.5,8.5,0,0.0,0,0,1,21,4.5,44,3,3,515200,kontrak,0,1,2630185,2,715,Rendah,0
+UD Mulia Snack,Wati Wijaya,4358829871195387,Makassar,Sambal & bumbu,4,1,0,0,1,1,0,1,6,3275015,3.7,18.5,1,4.2,7,56,0,0,0.0,0,1,2,406168,kos,0,1,6695110,2,723,Rendah,0
+UD Sejahtera Food,Agus Wijaya,6633867349188285,Yogyakarta,Katering,1,1,0,1,1,1,0,1,7,3639208,20.8,-2.0,0,0.0,0,0,0,0,0.0,0,3,3,304431,kontrak,0,0,6925328,1,722,Rendah,0
+UD Mandiri Food,Nur Utama,3490564967882452,Medan,Sambal & bumbu,3,0,1,1,0,1,0,0,15,4201791,15.0,5.4,0,0.0,0,0,0,0,0.0,0,3,3,158649,milik_sendiri,1,1,11000414,1,734,Rendah,0
+UD Abadi Pangan,Eko Setiawan,1099848314445548,Jakarta,Minuman,7,1,0,0,0,4,1,0,6,8464296,25.0,1.1,0,0.0,0,0,1,1,4.5,2,0,3,395569,kontrak,0,1,7658991,1,496,Sangat Tinggi,1
+UD Berkah Catering,Agus Utama,7510558558372718,Semarang,Olahan daging,4,0,1,1,1,1,0,0,12,3815978,5.8,-19.2,1,4.7,1,39,1,4,4.5,5,3,2,50000,kontrak,0,0,6481082,3,729,Rendah,0
+UD Barokah Food,Mega Kurniawan,3291608090661655,Makassar,Katering,4,1,0,0,0,1,0,2,9,6305858,34.3,18.7,1,4.0,64,47,1,18,4.0,11,2,0,384911,milik_keluarga,0,1,6914032,3,763,Rendah,0
+UD Makmur Olahan,Mega Kurniawan,6681837856454872,Semarang,Kue & roti,2,1,1,0,0,2,0,3,6,4184603,2.0,35.9,1,3.7,40,30,0,0,0.0,0,3,2,551477,milik_sendiri,0,0,3556349,2,714,Rendah,0
+UD Abadi Pangan,Fajar Susanto,4187465341278395,Yogyakarta,Sambal & bumbu,3,0,0,1,0,1,0,1,2,2896597,15.6,-8.1,0,0.0,0,0,1,14,4.2,35,2,3,359683,milik_keluarga,0,1,5686645,2,659,Sedang,0
+UD Jaya Snack,Rizki Setiawan,4977463024050668,Bandung,Katering,7,0,1,0,1,1,0,0,8,8953595,22.3,19.4,1,4.2,11,30,0,0,0.0,0,1,3,530949,kontrak,0,1,5828925,3,699,Sedang,0
+UD Karya Catering,Joko Rahayu,6519721442612380,Semarang,Makanan ringan,5,0,0,0,0,1,0,1,8,5555507,11.1,-7.6,1,4.5,28,28,0,0,0.0,0,3,0,165623,milik_sendiri,1,0,2373783,1,674,Sedang,0
+UD Makmur Olahan,Siti Lestari,9101262512811820,Makassar,Makanan ringan,6,0,0,0,0,1,0,2,15,4996208,9.6,7.0,0,0.0,0,0,1,3,4.8,37,3,0,655781,kontrak,0,0,3853166,2,642,Sedang,0
+UD Sumber Snack,Dewi Wijaya,7122355688521560,Semarang,Olahan daging,3,0,0,1,0,5,1,2,4,4389864,20.2,27.6,1,4.7,40,57,0,0,0.0,0,3,3,514592,kontrak,0,1,6857177,1,459,Sangat Tinggi,1
+UD Sumber Pangan,Lina Saputra,2301024721865224,Semarang,Minuman,4,0,1,0,0,2,0,0,17,6431431,18.8,-2.8,1,4.2,34,52,0,0,0.0,0,2,3,421394,milik_sendiri,0,1,3944472,1,705,Rendah,0
+UD Jaya Catering,Tono Permata,6019645938955392,Semarang,Olahan daging,2,0,1,0,0,1,0,0,9,3375689,18.1,4.8,1,4.5,35,26,1,4,4.8,32,2,3,260240,milik_sendiri,1,0,5834714,1,753,Rendah,0
+UD Jaya Pangan,Andi Kurniawan,9734431437261447,Surabaya,Olahan daging,5,0,1,1,0,3,0,2,9,4147776,26.6,-22.0,1,4.4,34,43,1,12,4.7,35,3,2,235321,milik_keluarga,0,1,6690392,1,646,Sedang,0
+UD Jaya Catering,Yuli Permata,3785986431597630,Surabaya,Olahan daging,3,0,1,1,0,1,0,1,5,3164656,14.1,-5.0,0,0.0,0,0,0,0,0.0,0,3,3,339363,milik_keluarga,0,1,6550430,2,702,Rendah,0
+UD Abadi Olahan,Wati Setiawan,1585533745485298,Bandung,Olahan daging,3,1,1,0,1,1,0,0,9,3772293,21.2,-23.6,1,4.0,74,21,1,22,4.3,45,2,1,530416,milik_sendiri,0,1,9191950,1,700,Rendah,0
+UD Sumber Olahan,Agus Setiawan,6799170977464711,Jakarta,Kue & roti,4,0,0,0,0,1,0,0,9,6120192,12.9,11.4,1,5.0,130,1,0,0,0.0,0,2,1,152671,milik_sendiri,0,1,2256155,2,679,Sedang,0
+UD Mulia Pangan,Budi Cahyono,1060072806379938,Semarang,Kue & roti,8,1,0,0,1,1,0,1,11,6841107,9.5,17.5,1,4.2,53,37,1,2,4.5,20,2,3,351561,kos,0,1,8927555,1,744,Rendah,0
+UD Abadi Catering,Dewi Cahyono,6058993040929146,Yogyakarta,Katering,1,0,1,0,1,1,0,2,4,2736948,15.2,1.7,0,0.0,0,0,1,1,4.5,42,2,2,460133,kontrak,1,0,5422828,1,713,Rendah,0
+UD Abadi Food,Eko Saputra,6795546948308457,Jakarta,Makanan ringan,6,0,1,0,0,2,0,3,13,4397687,13.0,9.3,0,0.0,0,0,1,11,4.8,34,2,0,489402,milik_sendiri,0,1,6502144,2,697,Sedang,0
+UD Makmur Pangan,Agus Saputra,2241239754963961,Yogyakarta,Olahan daging,2,1,1,1,0,4,1,1,9,3464734,13.5,0.1,1,5.0,63,46,1,8,4.6,4,2,3,459685,milik_keluarga,0,0,6090855,2,569,Tinggi,0
+UD Sejahtera Food,Dian Rahayu,3700576286231579,Jakarta,Katering,3,0,0,1,0,1,0,1,10,6083727,29.7,16.1,1,4.8,56,9,0,0,0.0,0,3,1,137360,milik_sendiri,0,1,5939061,1,629,Sedang,0
+UD Sumber Catering,Rini Kurniawan,6726835733962952,Bandung,Makanan ringan,1,1,1,1,1,1,0,0,7,3060474,15.5,6.9,1,4.6,36,17,0,0,0.0,0,3,3,519766,kontrak,0,1,2087886,1,759,Rendah,0
+UD Jaya Olahan,Lina Hidayat,5634748384129803,Semarang,Sambal & bumbu,2,1,0,0,0,1,0,1,4,5561997,11.4,-24.8,0,0.0,0,0,0,0,0.0,0,2,2,360079,kontrak,0,1,6391856,1,693,Sedang,0
+UD Mulia Olahan,Budi Utama,7117275084835872,Semarang,Minuman,3,0,1,1,0,1,0,1,8,4446829,18.3,19.1,1,4.1,1,21,0,0,0.0,0,2,3,187160,kontrak,1,1,100000,3,712,Rendah,0
+UD Sumber Olahan,Agus Setiawan,2508733409423862,Medan,Kue & roti,1,1,0,0,0,1,0,1,8,2601658,19.0,-0.8,0,0.0,0,0,1,21,4.7,16,2,1,346374,milik_sendiri,1,1,10285798,2,749,Rendah,0
+UD Berkah Olahan,Lina Setiawan,9032579558649405,Yogyakarta,Sambal & bumbu,3,0,0,1,0,1,0,1,2,5908104,6.1,-14.1,1,4.4,52,39,0,0,0.0,0,3,3,56200,kos,1,1,5145458,1,690,Sedang,0
+UD Barokah Food,Dewi Lestari,9786024184013604,Jakarta,Makanan ringan,7,0,1,1,0,3,0,0,11,6293847,15.0,-1.6,1,5.0,15,59,0,0,0.0,0,3,0,436744,milik_keluarga,1,0,7479911,1,645,Sedang,0
+UD Karya Pangan,Rini Lestari,3102689678707371,Jakarta,Sambal & bumbu,1,1,0,0,0,1,0,0,11,4087079,14.6,-23.5,1,4.4,2,54,0,0,0.0,0,3,3,330843,kontrak,0,1,6045452,2,736,Rendah,0
+UD Makmur Pangan,Sri Permata,7464472421247701,Palembang,Minuman,5,1,1,1,1,1,0,0,5,7628330,16.3,-13.7,0,0.0,0,0,1,17,4.4,4,3,3,159482,kontrak,0,1,4109755,2,740,Rendah,0
+UD Sumber Pangan,Hendra Wijaya,1105392318031394,Palembang,Makanan ringan,3,1,0,0,0,1,0,0,3,2880631,25.3,7.1,1,3.9,87,12,0,0,0.0,0,3,1,306488,milik_sendiri,0,0,2377751,2,722,Rendah,0
+UD Mandiri Olahan,Fajar Saputra,1866141929438946,Surabaya,Sambal & bumbu,4,1,1,1,0,1,0,0,6,3386778,19.4,8.4,0,0.0,0,0,1,13,4.3,45,2,2,243880,milik_keluarga,0,0,1808988,1,722,Rendah,0
+UD Sumber Food,Lina Setiawan,9367717157576622,Medan,Kue & roti,2,0,0,0,0,1,0,4,8,4705461,30.3,9.6,1,4.5,19,6,0,0,0.0,0,1,3,253462,milik_keluarga,1,1,6338099,2,667,Sedang,0
+UD Mulia Pangan,Sri Nugroho,7533082694969986,Makassar,Kue & roti,2,0,0,0,1,2,0,1,6,3301840,17.9,5.0,1,3.9,50,53,0,0,0.0,0,3,3,50000,kos,1,1,6180976,2,600,Sedang,0
+UD Mandiri Catering,Budi Permata,1790551960175620,Palembang,Katering,2,1,0,1,0,1,0,1,7,2989764,35.8,-5.4,1,4.6,99,16,0,0,0.0,0,2,0,99175,kontrak,1,0,5675345,2,660,Sedang,0
+UD Sejahtera Food,Dian Hidayat,5464950230221302,Makassar,Sambal & bumbu,1,0,0,0,1,2,0,2,8,2210213,13.4,4.2,0,0.0,0,0,1,11,4.4,14,3,1,315545,milik_keluarga,0,0,3646701,1,654,Sedang,0
+UD Mulia Catering,Budi Rahayu,9473928625140109,Surabaya,Olahan daging,2,1,1,1,0,1,0,4,2,2469909,10.3,-1.6,1,4.8,61,5,1,22,4.5,21,3,1,289737,milik_sendiri,0,1,5239707,2,728,Rendah,0
+UD Mulia Snack,Fajar Nugroho,3642564701870874,Surabaya,Sambal & bumbu,5,0,1,0,0,1,0,1,2,6707736,23.5,-19.4,0,0.0,0,0,1,7,5.0,15,3,1,496096,kontrak,0,1,2731439,2,696,Sedang,0
+UD Mandiri Pangan,Rini Susanto,6015459702112462,Surabaya,Makanan ringan,7,1,1,1,0,1,0,2,1,4599053,31.6,-6.6,0,0.0,0,0,0,0,0.0,0,2,3,255232,kontrak,0,0,1957531,2,678,Sedang,0
+UD Mulia Pangan,Siti Susanto,6440444140050265,Yogyakarta,Makanan ringan,6,0,1,1,0,3,0,0,11,5845058,4.2,18.3,0,0.0,0,0,0,0,0.0,0,3,3,270952,kontrak,0,0,3168025,1,642,Sedang,0
+UD Makmur Pangan,Mega Rahayu,1525744538671995,Yogyakarta,Sambal & bumbu,5,1,0,0,0,1,0,0,8,5965945,16.0,28.8,1,4.1,1,14,1,18,4.6,46,3,3,277964,milik_keluarga,0,0,3300009,1,707,Rendah,0
+UD Berkah Catering,Andi Utama,9661730131697330,Bandung,Minuman,1,0,1,0,0,2,0,1,12,3299385,11.9,14.8,0,0.0,0,0,0,0,0.0,0,3,3,320445,kos,1,1,8392607,1,656,Sedang,0
+UD Sumber Food,Joko Lestari,4305402088342367,Bandung,Kue & roti,2,1,0,0,1,1,0,1,3,2486741,19.4,28.2,0,0.0,0,0,1,11,3.8,14,3,3,363719,milik_sendiri,1,1,100000,1,717,Rendah,0
+UD Mandiri Snack,Andi Saputra,4319315976805616,Surabaya,Makanan ringan,2,0,0,0,0,2,0,1,8,4907204,18.1,6.3,1,5.0,64,30,1,8,4.3,9,3,3,289050,milik_sendiri,0,1,3900907,1,675,Sedang,0
+UD Abadi Snack,Eko Saputra,8215216764048380,Medan,Kue & roti,2,0,0,0,0,1,0,0,8,2433642,31.5,31.1,1,4.6,68,52,0,0,0.0,0,0,2,435683,milik_sendiri,0,1,5897039,1,641,Sedang,0
+UD Sumber Pangan,Rizki Wijaya,5978999659681667,Jakarta,Makanan ringan,4,1,1,1,0,2,0,0,5,6047559,16.9,35.8,1,4.7,50,52,1,6,3.9,7,3,2,695033,kontrak,0,1,9956603,1,715,Rendah,0
+UD Berkah Catering,Joko Setiawan,7270365087775204,Yogyakarta,Katering,4,0,0,1,0,1,0,1,1,6573217,31.7,-21.0,1,4.8,6,26,0,0,0.0,0,2,3,226183,milik_sendiri,0,1,2177697,2,666,Sedang,0
+UD Mulia Catering,Lina Pratama,5958344770689254,Medan,Olahan daging,3,0,0,1,0,4,1,0,14,4258223,14.8,8.3,1,3.9,98,53,0,0,0.0,0,1,0,408774,milik_sendiri,1,1,652246,1,522,Tinggi,1
+UD Jaya Pangan,Sri Lestari,5181359139686030,Semarang,Makanan ringan,3,1,1,1,0,1,0,1,13,4627952,27.3,6.3,1,4.5,32,45,0,0,0.0,0,3,2,354428,kos,0,1,6168995,1,759,Rendah,0
+UD Barokah Olahan,Hadi Kurniawan,4321256132465180,Yogyakarta,Kue & roti,6,1,0,1,0,1,0,1,6,5889520,20.3,-1.4,1,3.9,63,29,1,7,4.7,15,3,1,507055,milik_keluarga,0,0,4494574,2,737,Rendah,0
+UD Karya Pangan,Hendra Nugroho,6211839489038860,Yogyakarta,Katering,6,0,0,1,0,1,0,2,10,5468201,35.3,12.4,1,4.3,46,19,0,0,0.0,0,2,0,380449,milik_keluarga,0,0,3337605,2,657,Sedang,0
+UD Jaya Olahan,Eko Saputra,6898465843298118,Bandung,Makanan ringan,2,1,1,0,0,3,0,2,6,5239758,3.2,5.6,1,4.7,51,47,1,11,4.6,34,0,3,241032,milik_keluarga,0,0,5312883,2,620,Sedang,0
+UD Sumber Pangan,Hendra Utama,4701757987089650,Jakarta,Minuman,7,1,1,1,0,1,0,2,4,8548454,6.4,-6.0,1,4.0,62,8,1,13,4.2,40,2,3,175241,kos,1,0,6585532,1,739,Rendah,0
+UD Mandiri Pangan,Rini Kurniawan,2632044109420315,Jakarta,Olahan daging,8,1,1,1,0,2,0,1,15,6080571,36.3,4.6,1,4.6,24,23,1,1,3.9,1,3,2,441573,milik_sendiri,0,1,6211119,1,716,Rendah,0
+UD Sumber Snack,Fajar Hidayat,1187198831176361,Palembang,Makanan ringan,2,0,1,0,0,1,0,2,1,4368223,10.7,23.1,1,3.8,84,53,1,6,4.0,32,2,2,187429,milik_keluarga,1,1,4905179,1,706,Rendah,0
+UD Karya Snack,Sri Hidayat,1275068155242045,Makassar,Katering,3,1,1,0,1,1,0,1,6,6036867,11.3,7.7,1,4.9,1,42,0,0,0.0,0,1,3,527561,kontrak,0,1,7950416,1,700,Rendah,0
+UD Sejahtera Olahan,Dewi Susanto,2899647308246004,Makassar,Minuman,3,0,1,0,0,1,0,0,8,6163410,9.2,14.4,1,4.1,13,35,0,0,0.0,0,1,1,432978,kos,1,1,4592185,3,729,Rendah,0
+UD Sejahtera Snack,Nur Rahayu,7766967748784923,Makassar,Sambal & bumbu,8,0,1,0,0,5,1,0,14,7050170,29.5,0.8,1,4.0,83,31,0,0,0.0,0,3,3,363006,kontrak,0,0,4129362,2,474,Sangat Tinggi,1
+UD Mulia Snack,Dian Santoso,9290434575742571,Makassar,Katering,7,0,1,1,0,2,0,0,11,6254688,5.5,11.8,0,0.0,0,0,1,13,4.2,20,3,3,153161,milik_keluarga,0,1,6141675,1,720,Rendah,0
+UD Jaya Pangan,Mega Setiawan,1860004565411155,Semarang,Katering,1,0,0,0,1,4,1,1,1,2880344,18.2,-13.1,1,4.2,121,35,1,22,4.6,16,2,1,451298,kontrak,0,1,218411,2,526,Tinggi,1
+UD Makmur Olahan,Nur Permata,9654384369936317,Semarang,Minuman,3,1,1,0,1,1,0,1,7,6151938,15.3,-2.5,0,0.0,0,0,1,2,4.4,7,3,3,592514,milik_sendiri,0,1,5847265,1,740,Rendah,0
+UD Berkah Snack,Nur Santoso,6160327289783935,Yogyakarta,Katering,4,0,0,1,0,2,0,2,8,3571257,28.4,3.5,1,4.2,96,58,1,14,4.5,7,1,3,286235,kontrak,1,1,3090343,1,635,Sedang,0
+UD Mandiri Snack,Andi Utama,6741620179838966,Surabaya,Minuman,3,1,1,0,1,2,0,0,7,4787386,12.4,-14.1,1,4.8,1,5,1,6,4.8,2,3,0,238713,milik_sendiri,0,1,100000,2,715,Rendah,0
+UD Barokah Olahan,Siti Susanto,2756312441869784,Bandung,Makanan ringan,2,1,1,0,0,1,0,0,10,3304160,22.2,-7.5,1,4.3,2,16,0,0,0.0,0,3,0,336196,milik_keluarga,1,1,5275553,1,758,Rendah,0
+UD Mandiri Pangan,Andi Nugroho,3441907550939325,Bandung,Minuman,6,1,1,0,0,3,0,4,2,4939239,6.3,9.7,1,3.9,71,17,1,6,4.6,14,2,3,420041,kontrak,0,1,2625182,3,642,Sedang,0
+UD Makmur Catering,Siti Lestari,4479818031756672,Makassar,Minuman,5,1,1,1,1,4,1,0,6,5081861,40.7,6.9,0,0.0,0,0,1,6,4.5,31,2,1,270317,kontrak,1,1,100000,1,525,Tinggi,1
+UD Sumber Pangan,Dian Rahayu,8306772944454938,Yogyakarta,Olahan daging,6,0,1,1,1,4,1,1,9,8394206,15.6,17.1,1,4.5,39,38,0,0,0.0,0,3,3,484879,milik_keluarga,0,0,1386580,2,520,Tinggi,1
+UD Karya Catering,Sri Susanto,7456044517726840,Palembang,Minuman,6,0,0,0,0,2,0,1,10,3863838,18.1,-4.0,1,5.0,80,58,1,17,4.8,14,0,3,636607,kontrak,1,1,9068953,1,577,Tinggi,1
+UD Makmur Catering,Agus Cahyono,3650318458450892,Medan,Minuman,5,1,1,1,0,1,0,1,8,5845584,34.5,5.9,1,4.7,60,32,0,0,0.0,0,3,2,399536,milik_sendiri,1,1,2329913,1,672,Sedang,0
+UD Jaya Food,Joko Susanto,7991692670838018,Surabaya,Sambal & bumbu,3,1,0,0,0,1,0,0,6,2997259,12.1,-5.1,1,4.5,45,52,1,15,4.2,11,2,1,301252,milik_sendiri,0,1,4968905,2,721,Rendah,0
+UD Mulia Food,Eko Wijaya,3143386956391109,Yogyakarta,Makanan ringan,4,0,0,1,0,5,1,0,7,3618083,34.7,15.6,0,0.0,0,0,1,1,4.4,40,2,3,416000,kontrak,0,1,747614,3,484,Sangat Tinggi,1
+UD Sejahtera Pangan,Mega Permata,1094315480749466,Surabaya,Olahan daging,2,1,1,1,1,1,0,0,10,3806601,13.9,22.9,0,0.0,0,0,1,14,4.6,5,3,3,526594,milik_keluarga,0,1,10302785,2,761,Rendah,0
+UD Karya Catering,Joko Susanto,8725754894635325,Surabaya,Sambal & bumbu,5,1,1,1,0,2,0,1,8,5546024,24.7,12.2,1,4.4,62,56,0,0,0.0,0,3,3,373945,kos,0,1,4208010,2,685,Sedang,0
+UD Sejahtera Pangan,Joko Saputra,8897399859313888,Surabaya,Kue & roti,2,1,0,0,0,2,0,1,3,3228135,12.3,20.9,1,5.0,25,2,1,6,4.7,11,3,3,422764,milik_keluarga,0,0,1947838,3,672,Sedang,0
+UD Barokah Pangan,Tono Susanto,5361978532869353,Yogyakarta,Makanan ringan,5,0,1,1,0,2,0,0,3,4692411,4.4,5.5,1,3.7,56,20,1,18,4.6,5,0,3,455714,milik_sendiri,0,1,6655282,1,686,Sedang,0
+UD Barokah Snack,Dewi Rahayu,4925991999079063,Makassar,Makanan ringan,2,0,1,1,0,5,1,1,2,2678294,22.1,17.1,0,0.0,0,0,0,0,0.0,0,3,2,218683,milik_sendiri,1,1,10150598,1,522,Tinggi,1
+UD Abadi Olahan,Tono Wulandari,1712269509238586,Bandung,Kue & roti,1,1,0,0,0,1,0,2,13,2949015,24.4,6.1,1,4.4,38,18,1,24,4.0,36,3,3,418868,milik_sendiri,1,1,2775221,1,673,Sedang,0
+UD Sumber Catering,Tono Kurniawan,9283124542795423,Bandung,Minuman,2,1,1,1,0,1,0,0,11,5492987,4.8,-10.4,1,4.3,47,1,1,9,4.5,15,3,3,148707,kos,0,1,1887865,2,776,Rendah,0
+UD Jaya Pangan,Wati Lestari,5352277441660375,Makassar,Sambal & bumbu,1,0,0,0,1,1,0,1,7,4745180,14.9,8.7,0,0.0,0,0,1,4,4.2,19,3,3,251235,milik_sendiri,0,1,10885482,2,692,Sedang,0
+UD Mandiri Food,Siti Cahyono,8051066724175539,Surabaya,Katering,5,0,0,1,1,1,0,1,6,4773464,30.0,-9.9,1,4.5,61,29,0,0,0.0,0,0,3,521849,milik_sendiri,1,1,3631965,2,640,Sedang,0
+UD Barokah Pangan,Dewi Santoso,7426027267770173,Medan,Olahan daging,5,1,1,0,0,1,0,0,5,5811757,24.0,40.1,1,4.4,71,29,0,0,0.0,0,3,3,480655,kontrak,0,1,3290192,3,742,Rendah,0
+UD Barokah Pangan,Yuli Utama,2888893347600825,Jakarta,Katering,4,0,1,1,1,1,0,0,12,6638381,14.0,-0.0,0,0.0,0,0,1,1,4.6,17,3,3,309472,kontrak,0,1,100000,2,700,Rendah,0
+UD Barokah Catering,Dian Saputra,1829251870999819,Yogyakarta,Kue & roti,2,1,1,0,1,3,0,1,15,2419788,12.0,14.7,1,4.1,29,44,0,0,0.0,0,2,2,605869,kos,0,0,3899008,1,642,Sedang,0
+UD Mulia Pangan,Dewi Susanto,6855989035237158,Jakarta,Makanan ringan,1,1,1,0,1,4,1,3,5,4369913,37.5,4.8,1,3.6,30,40,0,0,0.0,0,3,3,153471,kontrak,1,0,100000,1,519,Tinggi,1
+UD Jaya Catering,Hendra Susanto,4286997365382530,Palembang,Makanan ringan,1,0,1,0,0,1,0,2,12,4755434,3.5,-13.5,1,4.1,17,6,1,8,4.1,17,2,0,319236,kontrak,1,0,2319720,3,716,Rendah,0
+UD Mulia Food,Eko Hidayat,2790486602384996,Makassar,Olahan daging,2,1,0,0,0,1,0,1,8,2692242,17.4,-23.5,1,4.2,1,44,1,12,4.4,10,2,1,391265,kontrak,0,1,100000,1,706,Rendah,0
+UD Mandiri Food,Rizki Kurniawan,4182471972383671,Medan,Makanan ringan,7,0,1,0,0,4,1,2,7,4739527,3.4,16.2,1,4.5,1,39,1,18,4.8,28,3,3,50000,milik_keluarga,1,1,7705445,1,561,Tinggi,1
+UD Barokah Olahan,Lina Pratama,5904166603080378,Yogyakarta,Makanan ringan,2,1,1,0,0,1,0,1,14,5474388,31.1,28.2,0,0.0,0,0,0,0,0.0,0,2,0,326350,kontrak,0,1,100000,1,759,Rendah,0
+UD Berkah Pangan,Wati Susanto,4492534160683009,Makassar,Olahan daging,3,1,0,0,0,1,0,1,7,4635144,17.9,-6.0,1,4.2,1,54,0,0,0.0,0,2,3,181325,milik_sendiri,1,1,100000,1,704,Rendah,0
+UD Barokah Snack,Andi Hidayat,5383209164486875,Surabaya,Sambal & bumbu,1,0,0,0,0,1,0,1,9,2139750,19.8,-19.9,0,0.0,0,0,0,0,0.0,0,3,3,184739,milik_sendiri,0,1,1275348,2,625,Sedang,0
+UD Karya Snack,Eko Rahayu,4859513588712278,Bandung,Sambal & bumbu,2,1,0,0,0,1,0,0,8,3224422,45.7,0.1,0,0.0,0,0,0,0,0.0,0,3,0,309165,milik_sendiri,0,1,7742009,1,661,Sedang,0
+UD Karya Pangan,Siti Cahyono,7016408850175711,Jakarta,Olahan daging,4,0,1,1,1,1,0,2,1,4799774,12.1,-9.1,1,4.5,32,24,1,4,4.3,14,3,3,76151,milik_keluarga,0,1,2665020,3,679,Sedang,0
+UD Barokah Catering,Eko Lestari,2157651029612928,Semarang,Kue & roti,4,1,0,0,0,5,1,1,9,5771635,35.5,-4.8,1,4.6,63,20,1,19,4.6,16,3,3,228806,milik_sendiri,0,0,3066223,1,457,Sangat Tinggi,1
+UD Karya Olahan,Budi Rahayu,6609238802118269,Semarang,Makanan ringan,2,1,1,1,0,1,0,1,5,4746113,14.1,14.2,1,4.7,57,54,0,0,0.0,0,0,3,79657,milik_keluarga,0,1,5435346,2,767,Rendah,0
+UD Sejahtera Catering,Nur Wijaya,7707577260561460,Medan,Makanan ringan,1,1,1,1,1,1,0,3,2,4887180,15.7,4.2,0,0.0,0,0,0,0,0.0,0,3,3,368568,milik_sendiri,0,1,3545025,2,734,Rendah,0
+UD Karya Olahan,Tono Hidayat,4596139385449177,Surabaya,Kue & roti,3,0,1,1,1,1,0,0,5,3735040,44.4,-7.4,0,0.0,0,0,0,0,0.0,0,3,3,365652,milik_keluarga,0,1,7713876,2,665,Sedang,0
+UD Makmur Snack,Joko Susanto,6513636576126661,Palembang,Sambal & bumbu,2,1,0,0,1,1,0,0,5,4122304,16.4,13.8,1,4.3,15,41,0,0,0.0,0,2,2,297717,kos,1,1,3281109,3,762,Rendah,0
+UD Berkah Olahan,Yuli Nugroho,7568068398119158,Jakarta,Minuman,2,0,1,1,1,2,0,0,12,4106635,4.3,15.0,0,0.0,0,0,0,0,0.0,0,3,0,499466,kontrak,1,1,3330255,1,639,Sedang,0
+UD Abadi Snack,Siti Wijaya,5806253435080118,Surabaya,Minuman,8,1,1,0,0,2,0,2,3,6471613,20.8,-0.1,1,4.3,23,34,1,22,4.6,34,2,3,305575,kos,0,1,10792579,1,670,Sedang,0
+UD Karya Olahan,Yuli Santoso,8178481077169335,Jakarta,Minuman,4,0,1,0,1,2,0,2,4,3676647,16.3,7.1,0,0.0,0,0,1,1,4.2,10,0,3,346537,milik_sendiri,1,1,4165496,1,565,Tinggi,0
+UD Makmur Snack,Yuli Pratama,7140197955580304,Medan,Sambal & bumbu,4,1,1,0,0,1,0,0,8,6909826,21.7,12.8,1,4.9,40,45,1,17,4.6,5,3,0,214099,kontrak,0,1,4691711,2,766,Rendah,0
+UD Barokah Olahan,Wati Pratama,4486546231202085,Medan,Sambal & bumbu,3,0,0,1,0,4,1,1,2,5771941,16.7,11.4,1,4.6,48,7,0,0,0.0,0,3,3,50000,milik_sendiri,1,1,3368722,3,472,Sangat Tinggi,1
+UD Mulia Catering,Tono Utama,2980321245798212,Palembang,Kue & roti,3,0,0,0,0,3,0,1,5,4493998,40.2,5.6,0,0.0,0,0,1,21,4.5,3,2,3,328199,kontrak,0,1,100000,1,543,Tinggi,1
+UD Sejahtera Catering,Eko Cahyono,9667948306767457,Semarang,Makanan ringan,4,0,0,0,0,2,0,2,1,5412981,23.6,26.5,1,4.4,37,7,1,12,4.8,19,2,3,308607,kos,0,1,6618611,2,618,Sedang,0
+UD Sumber Olahan,Joko Wijaya,5222972472155093,Surabaya,Kue & roti,5,0,1,1,0,1,0,1,11,4299948,7.3,13.7,1,4.7,81,27,1,7,4.7,45,3,3,606486,milik_sendiri,0,1,8981597,1,770,Rendah,0
+UD Sumber Food,Hendra Pratama,3400830095470078,Yogyakarta,Kue & roti,5,0,1,1,0,1,0,1,6,5692663,19.2,-1.8,1,3.9,59,14,0,0,0.0,0,2,3,450116,milik_keluarga,1,0,7767145,1,706,Rendah,0
+UD Barokah Catering,Hendra Santoso,9227575925069967,Semarang,Sambal & bumbu,2,0,1,0,1,1,0,3,7,4623904,10.0,-1.7,1,4.7,87,14,1,18,4.0,35,2,3,288031,kontrak,0,1,2325755,2,705,Rendah,0
+UD Barokah Pangan,Mega Utama,7300614591343816,Surabaya,Minuman,3,1,1,0,0,2,0,0,11,4554601,15.5,-3.4,1,4.6,34,44,1,16,5.0,6,3,3,371249,kontrak,0,1,3480378,1,688,Sedang,0
+UD Barokah Olahan,Eko Santoso,9625099671949498,Semarang,Katering,3,1,1,1,0,1,0,0,5,6265026,8.9,14.5,0,0.0,0,0,1,4,5.0,14,3,3,486052,milik_keluarga,0,0,5047561,1,769,Rendah,0
+UD Jaya Pangan,Dian Santoso,9916239130872271,Yogyakarta,Makanan ringan,7,0,0,0,1,1,0,1,6,7078976,39.1,-4.3,1,4.1,43,33,0,0,0.0,0,3,3,427513,kos,0,1,4941806,2,673,Sedang,0
+UD Jaya Catering,Siti Permata,5571068660279042,Bandung,Sambal & bumbu,4,1,1,0,0,4,1,4,3,4483894,11.1,-1.4,1,4.8,1,44,0,0,0.0,0,3,3,600335,kontrak,0,1,6042909,2,580,Tinggi,1
+UD Sejahtera Pangan,Joko Setiawan,2339837922806523,Bandung,Minuman,4,0,1,0,0,4,1,1,3,6088608,24.9,20.9,0,0.0,0,0,0,0,0.0,0,3,3,231590,kos,1,1,4609184,1,526,Tinggi,1
+UD Sumber Olahan,Sri Wijaya,6871092390541219,Palembang,Katering,1,1,1,1,0,4,1,0,4,2577295,14.8,7.9,1,5.0,62,53,0,0,0.0,0,3,1,496255,milik_keluarga,0,0,2916016,2,569,Tinggi,1
+UD Jaya Pangan,Siti Setiawan,9753842188313945,Bandung,Katering,4,1,1,1,0,1,0,0,6,4538063,6.4,23.0,1,5.0,60,47,1,1,4.9,35,2,0,286569,milik_sendiri,0,1,4410836,1,783,Rendah,0
+UD Berkah Olahan,Andi Lestari,7904670211241470,Bandung,Sambal & bumbu,1,1,1,1,0,2,0,1,6,3071485,20.0,17.0,0,0.0,0,0,0,0,0.0,0,3,3,379042,kontrak,0,1,6996355,1,693,Sedang,0
+UD Sumber Snack,Lina Rahayu,8776374794366099,Makassar,Olahan daging,3,0,0,1,1,1,0,0,9,4254505,22.0,-12.7,0,0.0,0,0,0,0,0.0,0,3,1,266348,kontrak,1,0,12748835,2,603,Sedang,0
+UD Abadi Olahan,Hadi Rahayu,3827252829980358,Jakarta,Makanan ringan,1,1,0,0,0,1,0,1,4,4288983,23.6,3.5,1,5.0,60,32,0,0,0.0,0,0,0,328698,milik_sendiri,0,0,2503176,1,695,Sedang,0
+UD Barokah Food,Nur Kurniawan,1922713338552808,Makassar,Katering,5,1,0,0,0,1,0,4,9,5430361,2.0,19.8,0,0.0,0,0,0,0,0.0,0,2,1,381734,milik_sendiri,0,1,4678613,1,654,Sedang,0
+UD Mulia Olahan,Dewi Nugroho,1364627251120039,Makassar,Sambal & bumbu,2,1,1,0,1,1,0,1,9,4940846,5.7,-13.3,1,4.0,66,3,0,0,0.0,0,3,2,438988,milik_sendiri,0,0,2910156,1,687,Sedang,0
+UD Jaya Catering,Mega Susanto,1306211917093414,Palembang,Sambal & bumbu,3,1,1,0,1,1,0,1,6,4775360,27.6,11.3,0,0.0,0,0,1,1,5.0,44,1,2,359203,kontrak,0,1,4922654,2,722,Rendah,0
+UD Abadi Snack,Mega Permata,4810159280532327,Makassar,Minuman,7,1,1,0,0,3,0,1,4,5678761,8.8,4.4,1,4.7,43,29,1,7,4.7,19,1,2,50000,milik_keluarga,0,1,6926957,1,700,Rendah,0
+UD Karya Food,Siti Permata,6790580889749258,Bandung,Olahan daging,2,1,1,1,0,1,0,0,8,4991931,20.0,-21.3,0,0.0,0,0,0,0,0.0,0,3,3,338457,kos,1,1,3375628,1,733,Rendah,0
+UD Mandiri Food,Andi Kurniawan,5538628243398584,Yogyakarta,Makanan ringan,3,0,0,1,0,2,0,3,7,3557842,5.4,6.8,1,3.9,76,22,0,0,0.0,0,3,3,570560,kontrak,0,1,100000,1,588,Tinggi,0
+UD Sejahtera Snack,Mega Permata,4546853610469297,Palembang,Kue & roti,3,1,1,1,0,1,0,1,8,3507778,25.3,-7.6,0,0.0,0,0,0,0,0.0,0,3,3,337269,milik_sendiri,0,1,7085721,1,711,Rendah,0
+UD Abadi Olahan,Sri Wulandari,7958356151162270,Palembang,Minuman,1,1,1,0,0,1,0,1,14,3512608,27.3,-12.5,0,0.0,0,0,0,0,0.0,0,2,0,574772,milik_sendiri,0,0,4391257,2,679,Sedang,0
+UD Mulia Snack,Agus Susanto,8124688012504361,Medan,Katering,6,1,1,1,0,1,0,1,8,4852076,25.3,5.1,0,0.0,0,0,1,22,4.5,45,1,3,331970,kontrak,0,1,2973903,1,723,Rendah,0
+UD Makmur Snack,Dian Susanto,3381964074172678,Palembang,Katering,1,1,1,1,1,1,0,1,5,2125443,28.3,-24.0,1,4.7,10,40,1,18,4.5,30,3,3,114202,kontrak,0,1,2304137,2,760,Rendah,0
+UD Berkah Olahan,Agus Kurniawan,6830689438685327,Medan,Minuman,3,1,0,0,0,1,0,1,4,5033871,33.6,-5.1,1,4.5,16,23,1,18,4.1,34,0,3,285056,milik_sendiri,0,1,4933614,2,696,Sedang,0
+UD Abadi Snack,Rizki Cahyono,7044401888354927,Palembang,Sambal & bumbu,4,1,1,1,0,1,0,0,4,5044375,6.3,43.3,1,4.1,25,54,1,8,4.7,30,3,2,266234,kontrak,1,0,1912380,2,808,Rendah,0
+UD Jaya Catering,Rini Hidayat,1461762742861811,Jakarta,Katering,4,1,1,0,0,1,0,2,2,4782071,10.1,14.8,0,0.0,0,0,0,0,0.0,0,2,3,315570,milik_keluarga,0,0,2262978,1,763,Rendah,0
+UD Sumber Catering,Dian Nugroho,7524756522546032,Bandung,Olahan daging,5,1,1,0,0,1,0,3,11,7554661,27.0,-8.2,1,4.0,56,10,1,10,4.7,44,3,3,172202,kos,1,1,254144,1,699,Sedang,0
+UD Mulia Pangan,Andi Santoso,3823554433973120,Palembang,Makanan ringan,2,0,1,0,0,1,0,1,1,4227837,29.3,26.1,0,0.0,0,0,1,10,4.8,33,3,3,348676,kos,0,0,1952910,1,758,Rendah,0
+UD Mandiri Food,Wati Permata,7075007753369853,Bandung,Olahan daging,1,0,0,0,0,4,1,3,9,4517608,11.3,-9.9,0,0.0,0,0,1,14,4.7,41,2,3,300761,kos,0,1,5892591,1,459,Sangat Tinggi,1
+UD Mulia Food,Mega Rahayu,5484407816376772,Bandung,Katering,5,0,0,0,1,1,0,0,4,3913581,10.6,-3.3,1,4.9,29,32,0,0,0.0,0,3,3,543179,milik_sendiri,0,1,100000,1,669,Sedang,0
+UD Makmur Pangan,Andi Setiawan,1505933758493855,Semarang,Kue & roti,4,1,0,1,0,2,0,1,5,5276825,11.5,-12.2,0,0.0,0,0,1,22,4.5,18,2,3,168464,milik_sendiri,1,0,7456202,2,586,Tinggi,0
+UD Jaya Pangan,Hendra Setiawan,6330407412145142,Palembang,Makanan ringan,6,1,0,1,0,2,0,1,4,7766302,2.0,8.8,1,4.3,1,6,1,10,4.5,19,2,3,386850,milik_keluarga,0,1,463140,1,668,Sedang,0
+UD Karya Pangan,Agus Wijaya,3999503278054632,Surabaya,Makanan ringan,6,1,1,1,0,4,1,1,13,6398907,5.3,25.5,1,4.4,35,24,1,16,4.5,7,3,0,411654,kos,1,0,4449807,1,558,Tinggi,1
+UD Barokah Snack,Fajar Nugroho,2632099170428562,Semarang,Minuman,6,1,0,1,0,3,0,1,8,7046468,5.5,-10.0,1,4.2,91,33,0,0,0.0,0,2,3,466247,kontrak,0,1,5454846,1,681,Sedang,0
+UD Mandiri Catering,Andi Nugroho,7820476126939343,Surabaya,Minuman,3,0,1,0,0,1,0,0,11,4039356,15.1,-25.9,1,4.5,60,53,1,19,4.7,24,3,3,295461,milik_sendiri,1,1,6473925,1,672,Sedang,0
+UD Abadi Pangan,Nur Wulandari,3538234860540307,Bandung,Kue & roti,3,1,1,1,0,2,0,0,13,3032818,20.7,21.4,0,0.0,0,0,1,2,5.0,15,2,3,383120,kontrak,0,0,6474675,3,720,Rendah,0
+UD Sejahtera Olahan,Rini Wijaya,7782437997533237,Bandung,Sambal & bumbu,6,1,0,0,0,4,1,1,8,5797921,22.3,28.3,1,3.9,1,12,1,15,5.0,41,1,2,402991,milik_sendiri,0,1,3747919,1,609,Sedang,0
+UD Jaya Olahan,Wati Lestari,2667374541760160,Semarang,Makanan ringan,3,1,1,0,0,1,0,0,3,4120125,12.9,-24.9,1,4.1,7,56,1,17,4.5,42,0,2,102745,milik_sendiri,0,1,3485345,2,749,Rendah,0
+UD Sumber Olahan,Eko Utama,8933628589175411,Semarang,Kue & roti,2,0,0,0,1,1,0,2,7,5174592,13.2,11.9,0,0.0,0,0,1,18,3.3,23,3,3,300844,milik_sendiri,0,1,5789602,2,731,Rendah,0
+UD Berkah Pangan,Rini Permata,3870047194596976,Surabaya,Minuman,6,1,1,0,1,1,0,0,5,4771177,19.2,8.4,0,0.0,0,0,0,0,0.0,0,3,3,345100,kontrak,0,1,4834081,2,741,Rendah,0
+UD Barokah Catering,Sri Santoso,1140496048231843,Medan,Minuman,7,1,0,0,1,3,0,0,5,8927017,3.0,-6.8,1,4.3,10,18,1,7,4.3,38,2,3,362686,milik_sendiri,0,1,2962535,1,700,Rendah,0
+UD Jaya Pangan,Eko Pratama,3152455798444135,Surabaya,Makanan ringan,3,1,0,0,1,3,0,1,7,6149297,27.6,-15.9,0,0.0,0,0,0,0,0.0,0,2,3,360850,milik_sendiri,0,0,5112917,3,586,Tinggi,1
+UD Jaya Catering,Dewi Nugroho,9707391556673789,Semarang,Olahan daging,1,1,0,0,0,1,0,1,7,2793368,30.9,19.9,1,4.4,57,39,1,6,4.4,5,3,1,415628,kos,0,0,3498616,1,725,Rendah,0
+UD Karya Snack,Rizki Pratama,8526029842050159,Yogyakarta,Katering,3,1,0,1,1,1,0,2,9,3952987,11.7,7.7,1,4.5,1,55,0,0,0.0,0,3,3,640640,kontrak,0,1,2198393,2,697,Sedang,0
+UD Berkah Olahan,Dewi Nugroho,8329335663695320,Semarang,Minuman,6,1,0,0,0,1,0,1,10,7898667,14.0,8.8,1,4.6,60,13,1,23,4.7,44,3,3,260685,kontrak,0,1,2864978,1,707,Rendah,0
+UD Sejahtera Catering,Dewi Utama,8670618204014744,Yogyakarta,Sambal & bumbu,7,1,1,0,1,1,0,0,7,8926435,30.4,-4.3,1,4.5,1,53,1,11,4.0,23,3,3,407175,kontrak,0,1,5459256,1,750,Rendah,0
+UD Karya Catering,Eko Wijaya,4297831728122769,Jakarta,Sambal & bumbu,2,1,1,0,1,5,1,2,9,3819005,16.8,-7.0,0,0.0,0,0,1,6,4.2,40,3,2,545195,milik_keluarga,0,1,1215737,2,514,Tinggi,1
+UD Jaya Food,Agus Pratama,4016507167363949,Semarang,Minuman,1,1,1,1,1,1,0,1,5,2998791,23.9,-31.8,1,4.4,15,30,1,5,4.6,37,2,3,80204,milik_sendiri,0,0,7319007,2,760,Rendah,0
+UD Sejahtera Food,Hadi Susanto,8267022326017729,Jakarta,Olahan daging,7,1,0,0,1,1,0,0,13,6635688,17.1,1.6,0,0.0,0,0,1,14,4.7,11,1,3,390219,milik_sendiri,1,0,2328179,1,728,Rendah,0
+UD Sejahtera Catering,Dian Susanto,1012324187139234,Medan,Olahan daging,3,1,1,0,0,1,0,1,5,5175969,33.6,26.6,1,5.0,64,49,1,2,4.7,11,1,3,97943,kontrak,0,1,100000,1,742,Rendah,0
+UD Mandiri Catering,Agus Setiawan,2951426957067196,Surabaya,Kue & roti,4,0,0,0,0,2,0,3,12,4093898,22.9,-8.4,1,4.7,58,41,0,0,0.0,0,3,3,677836,milik_sendiri,0,1,5657626,2,492,Sangat Tinggi,1
+UD Karya Snack,Joko Pratama,3734108216750051,Yogyakarta,Sambal & bumbu,8,0,1,0,0,1,0,1,2,8324249,23.5,-17.8,0,0.0,0,0,0,0,0.0,0,3,2,428307,kontrak,0,1,100000,1,624,Sedang,0
+UD Barokah Catering,Siti Rahayu,5891314992748099,Surabaya,Kue & roti,1,1,1,0,0,2,0,0,6,2244640,23.7,11.5,0,0.0,0,0,0,0,0.0,0,3,2,408063,kontrak,0,1,964242,1,595,Tinggi,0
+UD Makmur Food,Tono Lestari,8981494466236813,Jakarta,Sambal & bumbu,4,1,0,0,0,1,0,0,6,3197177,12.4,14.3,1,4.0,1,34,0,0,0.0,0,1,3,68993,milik_keluarga,0,1,11267369,3,693,Sedang,0
+UD Barokah Catering,Agus Santoso,4770312039027503,Yogyakarta,Katering,1,1,1,0,0,1,0,0,9,3181605,13.4,-3.8,1,4.5,51,36,1,7,4.9,18,3,3,274326,milik_keluarga,0,1,7179979,3,786,Rendah,0
+UD Jaya Snack,Budi Wulandari,8335475003057655,Surabaya,Katering,3,0,1,0,1,1,0,1,11,3972503,25.7,-0.2,1,4.1,21,30,1,20,3.9,44,3,0,275030,milik_keluarga,0,1,6932127,2,749,Rendah,0
+UD Makmur Snack,Rizki Cahyono,5036855842600327,Semarang,Makanan ringan,6,0,1,0,0,1,0,1,3,5115039,19.3,9.0,1,4.6,72,25,1,9,4.4,44,3,3,614968,milik_sendiri,0,0,643542,2,767,Rendah,0
+UD Mandiri Catering,Agus Wijaya,2887340575294658,Bandung,Kue & roti,3,1,0,1,1,1,0,0,3,4467671,6.2,2.7,0,0.0,0,0,0,0,0.0,0,0,3,459380,milik_keluarga,1,1,3440108,1,707,Rendah,0
+UD Karya Olahan,Wati Setiawan,8126554658017919,Jakarta,Minuman,10,0,0,0,1,4,1,3,2,6852694,36.7,20.0,0,0.0,0,0,0,0,0.0,0,3,3,102060,milik_sendiri,0,0,7724289,3,449,Sangat Tinggi,1
+UD Berkah Catering,Tono Setiawan,9070555117021871,Surabaya,Kue & roti,4,1,1,0,1,3,0,2,13,3769031,27.8,41.6,1,3.7,94,18,1,22,4.8,7,0,1,420425,kontrak,0,0,5918912,1,746,Rendah,0
+UD Barokah Snack,Budi Rahayu,8619390132560826,Jakarta,Minuman,2,1,1,0,1,5,1,1,9,3390302,18.4,-20.6,0,0.0,0,0,1,13,4.7,44,3,3,124564,kos,0,1,7407570,1,519,Tinggi,1
+UD Makmur Pangan,Andi Nugroho,1738264661537237,Makassar,Olahan daging,2,0,1,1,0,1,0,2,3,5519693,15.3,23.4,1,4.5,40,19,0,0,0.0,0,3,1,105600,milik_sendiri,0,1,9344605,2,787,Rendah,0
+UD Sumber Snack,Rizki Setiawan,2211070184047637,Jakarta,Kue & roti,3,0,0,0,1,5,1,0,6,4180008,20.0,6.6,1,4.1,44,42,1,23,4.8,15,1,2,418013,kontrak,1,1,5980329,1,534,Tinggi,1
+UD Jaya Pangan,Siti Lestari,7222057230681757,Yogyakarta,Olahan daging,3,0,0,0,1,1,0,1,12,4300965,23.2,25.8,1,4.8,63,18,1,1,4.4,16,3,2,461715,milik_sendiri,0,1,307948,1,669,Sedang,0
+UD Abadi Olahan,Fajar Permata,7535660233603301,Makassar,Katering,1,0,1,1,0,1,0,1,6,3714325,2.0,15.9,1,4.0,49,57,0,0,0.0,0,1,3,418813,milik_sendiri,0,0,5795145,1,717,Rendah,0
+UD Sumber Food,Eko Wijaya,1577709551591986,Palembang,Katering,3,1,1,0,0,1,0,2,6,6240026,39.1,5.9,1,4.6,66,32,1,1,5.0,30,3,1,631937,milik_keluarga,1,1,3293407,1,715,Rendah,0
+UD Jaya Pangan,Tono Wijaya,9208635582093063,Yogyakarta,Makanan ringan,3,0,1,0,1,1,0,2,4,3569764,10.1,16.4,1,4.1,1,21,0,0,0.0,0,2,3,405312,milik_sendiri,0,1,127420,2,702,Rendah,0
+UD Sumber Catering,Siti Pratama,6151325510989850,Bandung,Kue & roti,5,1,0,0,0,2,0,0,3,6297641,18.0,-0.9,1,4.6,101,10,1,13,4.7,18,3,3,375514,milik_sendiri,1,1,6683673,1,714,Rendah,0
+UD Karya Snack,Fajar Nugroho,7967473544805652,Makassar,Olahan daging,4,0,0,1,0,1,0,3,12,5863938,18.3,-6.6,1,3.8,46,37,0,0,0.0,0,3,3,167598,kontrak,1,0,7606218,1,636,Sedang,0
+UD Sumber Olahan,Siti Nugroho,4609823998738016,Palembang,Minuman,5,1,1,0,0,1,0,0,14,5972227,38.0,17.2,0,0.0,0,0,0,0,0.0,0,2,3,478642,milik_keluarga,0,1,3718301,1,722,Rendah,0
+UD Abadi Snack,Fajar Susanto,5496021883100014,Semarang,Katering,1,0,1,1,0,2,0,2,4,2348019,17.1,-7.7,1,4.1,17,22,1,9,3.9,13,3,3,102283,milik_sendiri,0,1,4961428,1,709,Rendah,0
+UD Berkah Pangan,Nur Cahyono,7091018956576224,Jakarta,Katering,2,1,1,1,0,1,0,4,13,4565991,33.9,14.6,1,4.8,1,13,0,0,0.0,0,3,3,653055,kontrak,0,1,100000,1,739,Rendah,0
+UD Mulia Pangan,Dewi Wulandari,8724911987354619,Surabaya,Minuman,5,0,0,0,1,1,0,0,6,3582016,22.1,5.5,0,0.0,0,0,1,12,4.8,35,1,3,480619,milik_keluarga,0,0,7371319,3,645,Sedang,0
+UD Jaya Pangan,Eko Nugroho,6241631771665199,Medan,Olahan daging,3,1,1,0,0,1,0,2,10,4846113,8.4,-29.9,0,0.0,0,0,0,0,0.0,0,3,3,768469,milik_sendiri,0,1,6379784,1,648,Sedang,0
+UD Abadi Snack,Tono Permata,1196342591708675,Jakarta,Olahan daging,1,0,0,0,0,3,0,0,13,4170827,19.3,-3.6,0,0.0,0,0,0,0,0.0,0,3,2,408399,milik_sendiri,0,1,4750671,2,598,Tinggi,0
+UD Jaya Olahan,Rizki Nugroho,8197552445224127,Palembang,Kue & roti,6,1,0,0,0,3,0,1,7,4612655,16.8,10.0,1,4.1,57,24,0,0,0.0,0,3,0,488024,kos,1,1,242651,1,695,Sedang,0
+UD Karya Catering,Nur Lestari,9352096670293503,Jakarta,Kue & roti,5,1,1,0,0,1,0,1,6,7003136,7.2,-1.1,1,4.8,51,44,0,0,0.0,0,3,3,308424,kontrak,0,1,100000,1,727,Rendah,0
+UD Jaya Catering,Lina Saputra,7509181827472555,Bandung,Sambal & bumbu,4,1,1,1,1,1,0,1,11,3121415,21.6,-33.2,1,4.9,10,14,1,16,4.2,35,3,3,343508,milik_keluarga,0,1,10079726,1,776,Rendah,0
+UD Barokah Food,Lina Nugroho,1533106244077725,Semarang,Sambal & bumbu,1,1,1,1,0,1,0,3,3,4462676,18.2,24.8,1,3.8,20,46,0,0,0.0,0,3,3,192269,milik_sendiri,0,1,1001288,1,690,Sedang,0
+UD Karya Food,Tono Santoso,6816263092814893,Medan,Makanan ringan,5,0,0,1,0,3,0,1,12,5325447,23.6,7.5,0,0.0,0,0,1,11,4.5,20,3,3,132843,milik_keluarga,1,1,4402552,1,633,Sedang,0
+UD Mandiri Pangan,Lina Utama,6785032684513797,Makassar,Katering,4,1,0,0,0,1,0,1,8,3870351,19.9,11.7,1,4.1,23,55,1,7,4.4,3,3,2,378424,milik_keluarga,0,1,1093922,1,762,Rendah,0
+UD Karya Food,Dian Saputra,1765684211154811,Makassar,Kue & roti,6,0,0,1,0,1,0,2,5,4242135,11.5,-2.1,1,4.3,34,37,1,16,4.9,8,1,3,342622,milik_sendiri,0,1,100000,1,714,Rendah,0
+UD Barokah Pangan,Tono Saputra,6900979920471076,Makassar,Olahan daging,5,1,1,1,1,1,0,3,5,7494551,25.7,13.0,1,4.4,36,19,0,0,0.0,0,3,0,188603,milik_sendiri,1,1,5344020,1,714,Rendah,0
+UD Sumber Food,Nur Pratama,2769214413901148,Palembang,Minuman,6,1,1,1,1,1,0,0,2,3948794,11.8,32.5,1,5.0,34,28,1,6,4.1,32,3,3,215190,milik_keluarga,1,1,5811581,2,717,Rendah,0
+UD Mulia Snack,Lina Saputra,9296848397828397,Yogyakarta,Olahan daging,4,0,0,0,0,1,0,4,5,3796373,2.0,-6.0,0,0.0,0,0,0,0,0.0,0,3,3,354870,kontrak,1,1,100000,3,631,Sedang,0
+UD Jaya Food,Dewi Kurniawan,7386739086213726,Yogyakarta,Katering,1,0,0,1,0,3,0,0,6,3073902,19.3,30.0,1,4.7,49,41,0,0,0.0,0,3,3,186031,kontrak,0,0,7324855,1,644,Sedang,0
+UD Sejahtera Pangan,Siti Lestari,5446850140013243,Surabaya,Sambal & bumbu,5,1,1,0,0,1,0,2,3,6029033,12.5,11.0,1,3.9,35,30,0,0,0.0,0,2,2,403496,kontrak,0,1,2420194,2,755,Rendah,0
+UD Abadi Catering,Joko Susanto,9677208651064435,Medan,Olahan daging,4,1,0,0,0,1,0,0,7,5179204,21.8,-8.0,1,3.9,1,7,0,0,0.0,0,3,3,190686,kos,0,1,752228,2,670,Sedang,0
+UD Mulia Olahan,Hendra Lestari,1282292333455612,Makassar,Makanan ringan,5,0,0,0,0,3,0,0,9,3852831,38.0,38.2,1,4.4,46,59,0,0,0.0,0,3,3,388378,milik_keluarga,0,1,555456,1,550,Tinggi,1
+UD Abadi Pangan,Wati Wulandari,7126290631363487,Yogyakarta,Katering,2,1,0,1,0,3,0,1,7,3327129,38.3,10.9,1,4.4,41,58,1,14,4.2,28,3,3,177393,milik_sendiri,0,1,6613678,2,634,Sedang,0
+UD Mulia Snack,Rini Lestari,2152108950373536,Palembang,Sambal & bumbu,2,0,0,1,0,1,0,1,10,3164005,16.3,15.1,1,3.3,1,26,0,0,0.0,0,0,3,178022,milik_sendiri,0,1,100000,3,694,Sedang,0
+UD Mandiri Pangan,Nur Susanto,1506872649698626,Surabaya,Minuman,7,0,0,0,0,1,0,1,4,5010422,9.7,1.0,1,4.9,27,40,0,0,0.0,0,1,3,50000,milik_keluarga,0,1,273483,1,692,Sedang,0
+UD Mandiri Olahan,Budi Cahyono,2091262596278289,Semarang,Sambal & bumbu,5,0,0,0,1,1,0,0,12,5109035,23.8,-6.9,0,0.0,0,0,1,12,4.5,32,3,3,325958,milik_keluarga,1,0,5294798,2,689,Sedang,0
+UD Mandiri Catering,Hendra Kurniawan,3963288611258345,Surabaya,Makanan ringan,7,1,1,0,1,4,1,1,8,7560963,14.3,7.5,0,0.0,0,0,0,0,0.0,0,3,3,568109,kontrak,0,0,4896032,2,538,Tinggi,1
+UD Abadi Snack,Dian Pratama,3206577433926197,Yogyakarta,Katering,5,0,1,0,0,1,0,3,14,4256792,21.9,28.7,0,0.0,0,0,0,0,0.0,0,2,2,559599,milik_keluarga,0,0,934055,1,691,Sedang,0
+UD Jaya Snack,Andi Saputra,5224572481443138,Bandung,Minuman,4,1,0,0,1,4,1,1,17,4466715,11.4,0.4,0,0.0,0,0,0,0,0.0,0,0,3,398610,kos,0,0,7859022,1,447,Sangat Tinggi,1
+UD Jaya Pangan,Agus Wulandari,5371001404476077,Palembang,Makanan ringan,4,1,1,0,0,2,0,0,6,4563669,20.5,4.6,1,4.3,63,14,1,2,4.4,9,2,3,50000,milik_sendiri,1,0,660800,3,669,Sedang,0
+UD Jaya Olahan,Sri Kurniawan,1157329844318833,Bandung,Sambal & bumbu,7,1,1,1,0,1,0,1,6,8977573,9.9,26.8,1,3.8,99,21,0,0,0.0,0,0,3,476581,milik_keluarga,0,0,3374357,2,747,Rendah,0
+UD Makmur Food,Eko Wulandari,5817096467812270,Makassar,Makanan ringan,4,1,1,0,1,1,0,0,7,6818665,29.8,0.5,1,4.9,64,8,0,0,0.0,0,2,3,383849,kontrak,0,1,2977213,1,716,Rendah,0
+UD Berkah Food,Budi Rahayu,6677145146803862,Bandung,Katering,4,0,1,0,1,1,0,2,10,6200550,12.1,12.7,0,0.0,0,0,1,16,5.0,11,3,3,289024,milik_sendiri,0,1,2988805,1,715,Rendah,0
+UD Sumber Food,Agus Wijaya,9034961484471934,Makassar,Kue & roti,2,0,0,0,1,1,0,2,13,3173308,24.6,18.2,0,0.0,0,0,1,4,4.4,2,3,3,531104,milik_sendiri,0,1,3414007,3,641,Sedang,0
+UD Mandiri Snack,Mega Pratama,5856106041485801,Makassar,Makanan ringan,3,0,0,1,0,1,0,1,5,2944934,5.4,2.0,0,0.0,0,0,1,16,4.5,3,1,3,442316,kos,0,1,3324404,1,646,Sedang,0
+UD Mulia Olahan,Siti Rahayu,8746614853808089,Yogyakarta,Makanan ringan,5,1,1,1,0,2,0,1,9,4694378,25.8,9.6,1,4.1,64,23,1,22,3.8,11,3,3,644232,milik_keluarga,1,1,3287457,2,690,Sedang,0
+UD Mulia Snack,Hadi Kurniawan,1847795829501031,Bandung,Sambal & bumbu,2,1,1,1,1,5,1,2,7,3253742,8.3,14.9,0,0.0,0,0,0,0,0.0,0,2,3,139154,milik_sendiri,1,0,3454218,1,532,Tinggi,1
+UD Barokah Food,Fajar Utama,5397634781027720,Makassar,Sambal & bumbu,2,1,1,0,0,1,0,1,10,4018962,20.6,-1.0,1,4.5,56,35,0,0,0.0,0,1,3,150885,milik_sendiri,1,1,7256071,1,745,Rendah,0
+UD Barokah Olahan,Dian Kurniawan,7191533409382645,Medan,Minuman,2,0,0,0,0,2,0,2,14,4888729,28.2,17.2,1,4.2,16,13,0,0,0.0,0,2,3,176153,kontrak,0,1,3302759,1,572,Tinggi,1
+UD Jaya Food,Hadi Setiawan,3142602644528166,Semarang,Sambal & bumbu,2,1,0,0,0,1,0,1,7,5146633,16.0,-3.2,1,4.2,58,12,0,0,0.0,0,3,3,307246,milik_keluarga,1,1,6075838,1,693,Sedang,0
+UD Sumber Catering,Dewi Kurniawan,3486941956708009,Surabaya,Olahan daging,2,0,1,1,0,1,0,2,1,5103565,7.7,-5.1,1,4.7,41,47,0,0,0.0,0,1,3,588225,kos,1,1,4446167,1,703,Rendah,0
+UD Makmur Pangan,Mega Susanto,6148971806147097,Surabaya,Katering,3,1,0,1,0,1,0,1,10,3994832,23.0,-17.9,1,3.8,51,50,0,0,0.0,0,3,3,256461,kontrak,1,1,5098691,2,730,Rendah,0
+UD Sejahtera Snack,Agus Santoso,2010873193121585,Yogyakarta,Katering,7,1,0,1,0,2,0,1,4,7473618,9.6,-2.6,1,4.2,42,5,1,10,4.8,28,1,0,259669,kontrak,0,1,6333733,2,650,Sedang,0
+UD Mandiri Food,Tono Santoso,7882498739710359,Bandung,Kue & roti,3,0,0,1,1,4,1,3,7,3826203,14.0,-7.2,1,3.7,36,39,1,9,4.3,32,2,2,412593,milik_sendiri,0,1,579184,1,485,Sangat Tinggi,1
+UD Mandiri Snack,Sri Nugroho,3852185052502843,Bandung,Kue & roti,2,1,0,1,0,2,0,1,11,2594897,20.7,-1.0,1,4.4,59,11,0,0,0.0,0,2,1,476473,kontrak,0,1,5882199,2,648,Sedang,0
+UD Barokah Food,Eko Cahyono,3064852794461062,Makassar,Katering,1,0,1,0,0,1,0,1,9,4064382,31.6,14.2,0,0.0,0,0,1,17,4.2,20,3,3,50000,milik_sendiri,1,1,3363537,1,706,Rendah,0
+UD Sejahtera Pangan,Hendra Wulandari,1949121749725219,Palembang,Kue & roti,5,0,0,1,0,1,0,0,7,3343241,18.3,-20.9,0,0.0,0,0,0,0,0.0,0,3,2,505957,milik_keluarga,0,1,1116982,1,653,Sedang,0
+UD Sumber Food,Tono Rahayu,9183305102684179,Jakarta,Minuman,3,1,1,0,0,1,0,1,5,4173057,18.2,-24.6,1,3.9,1,11,0,0,0.0,0,3,1,251717,milik_sendiri,0,1,6327340,1,714,Rendah,0
+UD Karya Food,Dian Permata,2136070694088455,Makassar,Sambal & bumbu,6,1,0,0,0,1,0,1,1,5181020,25.4,-6.2,0,0.0,0,0,1,4,4.7,11,2,1,334636,kos,1,1,2723812,1,644,Sedang,0
+UD Berkah Food,Dian Cahyono,6658084245741549,Semarang,Katering,4,1,0,0,0,3,0,0,10,5773510,18.5,11.9,0,0.0,0,0,0,0,0.0,0,2,3,562739,milik_sendiri,0,1,5132484,3,604,Sedang,0
+UD Barokah Snack,Dewi Utama,8056180513811085,Medan,Kue & roti,6,0,0,0,1,3,0,0,6,7277978,24.4,9.3,1,5.0,1,42,0,0,0.0,0,2,0,317533,kontrak,0,1,100000,2,612,Sedang,0
+UD Makmur Olahan,Rini Setiawan,7583651801847666,Surabaya,Katering,2,1,0,0,0,2,0,1,14,3373102,28.8,-6.5,1,4.7,48,47,0,0,0.0,0,0,3,120219,milik_sendiri,1,1,6178248,1,623,Sedang,0
+UD Barokah Olahan,Rini Cahyono,2928363125105806,Makassar,Olahan daging,5,0,1,0,1,1,0,2,9,6871158,14.7,22.5,1,3.6,42,31,1,19,4.9,5,3,1,128914,milik_sendiri,1,1,11770276,2,753,Rendah,0
+UD Mandiri Snack,Tono Wulandari,2746417793138017,Jakarta,Makanan ringan,2,0,1,0,0,1,0,1,5,3340533,2.0,-4.9,1,3.9,30,31,1,12,4.7,10,2,3,345633,milik_sendiri,0,1,3977005,1,755,Rendah,0
+UD Makmur Catering,Yuli Utama,5278480799782687,Jakarta,Sambal & bumbu,8,0,0,0,0,1,0,0,12,6699427,9.8,11.9,0,0.0,0,0,0,0,0.0,0,2,3,299845,kos,1,1,3209335,1,718,Rendah,0
+UD Karya Pangan,Rini Setiawan,3861851264804798,Makassar,Katering,4,1,0,0,0,1,0,1,12,5908074,30.1,-0.4,0,0.0,0,0,1,13,4.2,46,3,3,358920,kontrak,0,0,2616126,1,653,Sedang,0
+UD Jaya Catering,Rizki Susanto,6492427062366258,Yogyakarta,Makanan ringan,2,0,1,0,0,1,0,0,7,4617344,17.7,-8.0,1,4.0,83,49,1,12,4.8,34,3,3,289808,kos,0,1,5666788,2,683,Sedang,0
+UD Berkah Snack,Tono Cahyono,5906674384064185,Surabaya,Kue & roti,2,0,1,0,1,2,0,1,12,5559579,14.6,-4.1,0,0.0,0,0,1,12,4.5,36,3,3,536214,kontrak,0,1,3087682,1,627,Sedang,0
+UD Sumber Catering,Yuli Cahyono,4028325527841981,Yogyakarta,Makanan ringan,2,1,1,0,0,2,0,0,5,3120515,29.7,16.0,0,0.0,0,0,1,7,4.2,2,2,3,353715,kontrak,0,1,5942675,2,671,Sedang,0
+UD Mulia Pangan,Lina Permata,8534389852657813,Medan,Sambal & bumbu,5,1,0,1,0,1,0,0,8,6214198,17.0,10.4,0,0.0,0,0,0,0,0.0,0,3,2,85553,kontrak,0,1,9167344,1,700,Rendah,0
+UD Abadi Olahan,Mega Pratama,1238842531772985,Jakarta,Katering,2,0,0,1,1,1,0,0,10,4350982,2.0,19.5,1,4.8,54,33,0,0,0.0,0,2,3,472479,milik_keluarga,0,1,6523116,1,729,Rendah,0
+UD Makmur Olahan,Yuli Setiawan,5184007890729264,Jakarta,Olahan daging,4,1,1,1,1,1,0,1,11,6660393,2.9,10.4,0,0.0,0,0,1,12,4.5,5,3,0,635940,kontrak,1,0,3476001,3,733,Rendah,0
+UD Barokah Olahan,Budi Pratama,5405412546810537,Semarang,Kue & roti,2,0,1,1,1,1,0,0,10,2900358,22.2,-19.2,1,4.4,50,15,1,6,5.0,20,3,3,373239,milik_sendiri,0,0,653573,1,701,Rendah,0
+UD Karya Food,Rini Susanto,7178453491732238,Medan,Katering,5,1,0,0,0,3,0,1,6,6607911,17.3,36.7,1,4.9,1,16,1,5,4.7,2,3,2,384882,milik_keluarga,1,1,2775343,2,722,Rendah,0
+UD Jaya Snack,Tono Saputra,7038747799763946,Jakarta,Sambal & bumbu,6,1,0,1,1,1,0,1,12,6327689,32.5,10.6,1,4.3,47,44,1,8,5.0,11,1,3,233017,milik_sendiri,0,0,3517940,2,724,Rendah,0
+UD Makmur Catering,Mega Permata,2981025003465316,Medan,Kue & roti,5,0,1,0,0,1,0,1,7,4508529,10.7,12.7,1,4.8,59,58,1,12,4.8,30,3,3,313632,milik_keluarga,0,1,100000,3,735,Rendah,0
+UD Karya Snack,Dian Hidayat,5991648906819847,Surabaya,Minuman,5,1,0,0,0,1,0,1,5,5387513,14.9,-0.7,0,0.0,0,0,1,20,4.8,32,2,3,425430,milik_sendiri,1,1,7260805,1,652,Sedang,0
+UD Jaya Olahan,Wati Hidayat,9528036689598011,Bandung,Makanan ringan,2,1,1,1,0,3,0,2,5,3468085,9.2,21.7,1,4.0,42,38,1,2,5.0,32,3,3,519768,kos,1,1,5707258,1,721,Rendah,0
+UD Abadi Pangan,Hendra Setiawan,1013108090945131,Jakarta,Sambal & bumbu,1,1,1,0,0,1,0,0,15,3722077,12.8,-11.4,1,4.4,11,6,1,9,4.6,38,3,3,416900,milik_sendiri,0,1,854226,2,737,Rendah,0
+UD Abadi Food,Joko Saputra,7122099887264870,Semarang,Minuman,5,1,0,1,0,1,0,1,5,7211602,2.0,14.1,1,4.8,7,44,1,13,4.4,28,3,3,622706,milik_keluarga,0,1,100000,2,721,Rendah,0
+UD Abadi Pangan,Lina Cahyono,8130074529583877,Surabaya,Katering,3,1,0,1,0,1,0,0,13,4749497,14.1,-26.2,0,0.0,0,0,0,0,0.0,0,3,3,364770,kontrak,0,1,6153555,2,713,Rendah,0
+UD Barokah Catering,Andi Pratama,8603587597394911,Makassar,Olahan daging,3,1,0,1,1,2,0,0,3,4974200,17.5,15.2,1,4.4,23,15,0,0,0.0,0,3,0,181745,milik_sendiri,1,1,100000,1,674,Sedang,0
+UD Sumber Snack,Sri Cahyono,2930138594737501,Medan,Kue & roti,1,0,0,1,0,5,1,1,9,3552493,16.6,-11.2,0,0.0,0,0,0,0,0.0,0,1,3,186041,milik_sendiri,1,1,4251797,1,476,Sangat Tinggi,1
+UD Mandiri Pangan,Hadi Wulandari,2988117595896674,Makassar,Makanan ringan,2,1,0,0,0,1,0,1,9,2563729,39.5,9.2,1,3.7,11,56,1,6,4.3,22,3,3,535161,kontrak,0,1,2771441,1,716,Rendah,0
+UD Jaya Olahan,Andi Lestari,5111306498710439,Yogyakarta,Kue & roti,1,0,1,0,0,4,1,2,14,2752003,36.3,25.4,1,3.8,16,4,1,13,4.5,43,3,3,501065,kos,0,1,6399932,1,443,Sangat Tinggi,1
+UD Karya Pangan,Nur Cahyono,1315779450641039,Surabaya,Katering,7,1,1,0,1,4,1,1,5,6458408,10.5,17.3,1,4.2,68,30,1,10,4.7,19,3,3,103309,kontrak,0,1,6434695,1,604,Sedang,0
+UD Sumber Olahan,Rini Susanto,5909375121756529,Makassar,Kue & roti,2,0,1,0,0,4,1,3,4,3392752,2.0,23.4,1,4.2,50,34,0,0,0.0,0,3,2,318573,milik_sendiri,0,1,1536172,1,526,Tinggi,1
+UD Berkah Catering,Hendra Wijaya,4450798838101097,Palembang,Makanan ringan,4,1,1,1,0,2,0,0,7,3727054,17.0,21.8,1,3.8,18,27,0,0,0.0,0,3,1,324020,kontrak,0,1,6663899,1,668,Sedang,0
+UD Mulia Food,Budi Santoso,4736814997431954,Palembang,Katering,1,0,0,1,1,2,0,0,14,3511571,21.8,-2.9,1,4.8,27,31,1,24,5.0,36,2,3,237270,kontrak,0,0,3131602,2,654,Sedang,0
+UD Berkah Snack,Nur Hidayat,5875854745772151,Jakarta,Kue & roti,5,1,0,1,1,1,0,0,4,4720363,9.4,14.0,0,0.0,0,0,0,0,0.0,0,3,3,138444,milik_sendiri,0,1,4056891,2,702,Rendah,0
+UD Sejahtera Olahan,Hadi Lestari,6984909939914514,Medan,Olahan daging,2,1,1,0,0,2,0,0,1,3225944,9.9,-20.9,1,3.9,73,32,0,0,0.0,0,1,3,233959,milik_sendiri,1,0,4118379,1,618,Sedang,0
+UD Sejahtera Catering,Andi Hidayat,1121340316718137,Bandung,Sambal & bumbu,7,1,1,0,0,1,0,1,8,6312724,33.8,-5.3,1,4.4,11,44,0,0,0.0,0,3,3,206997,kos,0,1,10744500,1,698,Sedang,0
+UD Barokah Olahan,Tono Nugroho,7112967900292441,Surabaya,Katering,7,1,0,0,1,2,0,1,11,4593078,15.4,25.9,1,4.8,79,39,0,0,0.0,0,3,3,142029,milik_keluarga,0,1,3641808,2,613,Sedang,0
+UD Mandiri Snack,Mega Susanto,9271506508381657,Jakarta,Sambal & bumbu,2,1,1,0,0,1,0,0,3,5368786,24.6,-0.8,0,0.0,0,0,1,13,4.6,14,1,1,474359,milik_sendiri,1,0,100000,1,671,Sedang,0
+UD Berkah Pangan,Yuli Hidayat,5539282563012413,Semarang,Katering,7,1,0,1,0,2,0,3,11,8412050,8.7,-23.0,1,4.6,68,9,0,0,0.0,0,3,1,392441,kos,1,1,1855859,2,588,Tinggi,0
+UD Mulia Catering,Yuli Susanto,1786247142737022,Yogyakarta,Olahan daging,10,0,0,0,1,3,0,2,3,9328771,17.4,35.2,1,5.0,40,41,1,12,4.8,6,3,0,280381,milik_sendiri,0,1,6214133,2,675,Sedang,0
+UD Makmur Pangan,Rizki Cahyono,4199066397837195,Medan,Sambal & bumbu,6,1,0,0,0,1,0,0,7,4109826,14.6,13.4,0,0.0,0,0,0,0,0.0,0,3,3,50000,kontrak,0,1,3147796,2,724,Rendah,0
+UD Sumber Catering,Budi Nugroho,5824605733013120,Surabaya,Minuman,6,1,1,0,0,3,0,0,11,7324210,11.2,16.5,1,5.0,10,14,1,7,4.4,21,2,2,305138,kontrak,1,1,4044868,2,680,Sedang,0
+UD Sumber Food,Dewi Saputra,9167421115069049,Palembang,Makanan ringan,2,1,1,1,0,1,0,0,3,4985463,29.6,-9.7,1,3.7,37,33,0,0,0.0,0,2,3,428158,milik_sendiri,0,1,2704144,1,714,Rendah,0
+UD Mandiri Snack,Tono Susanto,4450269387849454,Surabaya,Minuman,4,0,0,1,0,3,0,0,8,6071058,4.1,9.3,1,4.2,81,23,1,8,4.3,30,3,3,239593,kontrak,0,1,100000,2,672,Sedang,0
+UD Mulia Snack,Lina Saputra,5480652646986847,Bandung,Kue & roti,1,1,0,0,0,1,0,0,12,2419104,21.0,8.9,1,4.6,1,21,1,13,4.4,31,2,2,177505,milik_keluarga,0,0,1665979,1,743,Rendah,0
+UD Mulia Snack,Sri Hidayat,8351872017405045,Palembang,Olahan daging,1,1,1,0,1,1,0,1,9,3902942,14.4,-7.3,1,3.8,43,55,0,0,0.0,0,3,1,331546,milik_keluarga,0,1,3768123,1,708,Rendah,0
+UD Abadi Snack,Siti Setiawan,5435632555314776,Bandung,Minuman,10,1,0,0,0,4,1,0,5,10139678,22.1,2.5,1,4.0,33,12,1,17,4.1,4,3,1,400260,milik_sendiri,0,1,100000,1,577,Tinggi,0
+UD Mandiri Food,Nur Nugroho,1758559663119596,Semarang,Katering,2,0,1,0,0,1,0,1,14,4247530,14.6,-17.5,1,4.0,65,57,1,8,5.0,31,1,3,50010,milik_sendiri,0,0,463471,1,678,Sedang,0
+UD Mulia Food,Dewi Hidayat,3743782468858752,Yogyakarta,Kue & roti,5,0,0,1,0,3,0,4,10,6144192,26.7,-0.2,1,4.3,77,2,0,0,0.0,0,3,3,553101,milik_keluarga,0,1,2979991,1,575,Tinggi,1
+UD Mulia Pangan,Rizki Saputra,6080909875655868,Semarang,Kue & roti,6,1,1,1,0,1,0,1,1,5800144,8.6,19.6,1,5.0,66,13,0,0,0.0,0,3,2,162630,milik_sendiri,0,1,3006054,1,790,Rendah,0
+UD Barokah Snack,Wati Cahyono,2917439431963327,Jakarta,Minuman,6,0,0,0,1,1,0,3,11,6137795,29.6,-6.2,0,0.0,0,0,1,20,5.0,5,3,3,286582,kos,1,1,5183265,2,669,Sedang,0
+UD Mulia Snack,Sri Setiawan,3856249612321348,Jakarta,Minuman,10,0,1,0,0,1,0,0,5,5020011,17.7,33.6,0,0.0,0,0,1,11,4.5,6,2,3,527190,milik_sendiri,0,1,3169428,3,761,Rendah,0
+UD Mandiri Catering,Hadi Wulandari,8242576421968732,Semarang,Olahan daging,2,1,1,1,0,1,0,1,8,4444681,4.7,-16.5,0,0.0,0,0,0,0,0.0,0,3,3,368803,kontrak,0,1,5072901,1,682,Sedang,0
+UD Karya Pangan,Wati Permata,4070893231644610,Yogyakarta,Makanan ringan,1,0,1,0,0,1,0,1,12,2328052,24.8,1.1,1,4.6,51,50,0,0,0.0,0,2,3,514413,milik_sendiri,1,1,1899877,1,716,Rendah,0
+UD Mandiri Snack,Sri Kurniawan,4180112181186713,Semarang,Minuman,3,1,1,1,0,1,0,0,5,4266052,16.0,-4.8,1,4.7,88,51,1,3,4.5,8,3,3,583051,milik_keluarga,0,1,4634703,1,754,Rendah,0
+UD Mulia Snack,Eko Hidayat,1288686908181938,Yogyakarta,Minuman,1,1,0,0,0,1,0,0,1,2919434,2.0,2.3,1,3.7,20,48,1,10,4.4,9,1,3,131048,milik_keluarga,1,0,8413345,3,738,Rendah,0
+UD Sejahtera Pangan,Lina Utama,1620004815084629,Yogyakarta,Sambal & bumbu,1,1,0,0,1,1,0,1,14,3627198,21.3,25.6,1,4.4,32,59,1,17,4.8,15,3,3,485306,milik_sendiri,1,0,4866900,1,713,Rendah,0
+UD Karya Pangan,Joko Hidayat,5304280253459740,Makassar,Katering,3,1,1,0,1,5,1,1,12,3180298,28.1,-9.8,0,0.0,0,0,0,0,0.0,0,3,2,548823,milik_keluarga,0,1,3294952,2,482,Sangat Tinggi,1
+UD Sumber Snack,Agus Saputra,7456113629242587,Palembang,Sambal & bumbu,6,1,1,0,0,5,1,1,7,6919888,30.8,-1.8,1,4.8,75,30,1,10,4.7,41,3,3,293629,kontrak,0,0,1171791,1,580,Tinggi,1
+UD Mulia Olahan,Nur Lestari,2922238787529774,Medan,Sambal & bumbu,4,0,0,1,0,1,0,1,11,6180046,14.2,14.8,1,4.1,51,29,0,0,0.0,0,3,3,305567,milik_sendiri,1,1,4260926,2,746,Rendah,0
+UD Mandiri Catering,Agus Saputra,4716281919916125,Yogyakarta,Kue & roti,2,1,0,0,1,2,0,1,6,2922734,19.5,6.4,1,4.0,74,8,0,0,0.0,0,2,3,63043,kos,0,1,3346016,1,609,Sedang,0
+UD Mandiri Catering,Sri Hidayat,9856488764322749,Bandung,Makanan ringan,4,1,0,0,1,1,0,0,8,3417252,18.5,7.6,1,4.2,76,12,1,16,4.2,8,3,3,467161,kontrak,0,1,5685995,1,729,Rendah,0
+UD Jaya Food,Nur Pratama,1822379616039364,Yogyakarta,Katering,2,1,1,0,0,2,0,0,7,2865649,32.9,-9.5,1,4.9,62,41,1,11,4.1,47,1,3,50000,milik_sendiri,1,1,100000,1,671,Sedang,0
+UD Jaya Food,Wati Rahayu,1972840231021455,Yogyakarta,Olahan daging,1,0,1,0,0,3,0,0,6,4555957,9.9,3.9,1,4.8,13,38,0,0,0.0,0,1,2,495321,milik_sendiri,1,0,3435678,1,631,Sedang,0
+UD Sumber Catering,Rini Susanto,4281877983812057,Yogyakarta,Olahan daging,5,1,0,0,0,4,1,0,9,5624032,13.4,22.0,1,4.4,94,26,0,0,0.0,0,2,1,137349,milik_keluarga,1,1,5257842,2,593,Tinggi,0
+UD Mandiri Olahan,Agus Wulandari,8469737572424020,Makassar,Minuman,4,1,1,0,1,1,0,3,3,4869043,9.7,-19.1,0,0.0,0,0,1,11,4.5,19,3,2,558603,milik_keluarga,0,1,4388147,2,735,Rendah,0
+UD Makmur Catering,Dian Nugroho,7036483532613219,Palembang,Minuman,5,1,0,1,1,3,0,1,6,3769532,3.5,-5.5,1,3.5,46,2,1,8,4.5,39,3,3,409441,milik_keluarga,0,1,3002441,1,645,Sedang,0
+UD Jaya Catering,Eko Rahayu,7461969271151869,Makassar,Olahan daging,1,1,1,0,0,1,0,2,9,3918756,20.5,-22.2,0,0.0,0,0,1,16,5.0,6,3,2,501345,milik_sendiri,0,1,2960940,3,701,Rendah,0
+UD Barokah Catering,Rizki Wijaya,5757439280288100,Jakarta,Minuman,6,0,0,0,0,5,1,0,15,7766398,34.0,13.1,0,0.0,0,0,1,9,4.1,19,3,1,228083,kos,0,1,703459,1,514,Tinggi,1
+UD Makmur Food,Nur Kurniawan,2240343811823353,Makassar,Makanan ringan,4,0,1,1,1,1,0,1,3,6312743,16.0,23.4,1,5.0,52,56,0,0,0.0,0,3,0,149981,milik_sendiri,0,1,5136615,3,715,Rendah,0
+UD Makmur Snack,Rizki Utama,3350798591440629,Bandung,Sambal & bumbu,4,1,0,0,1,2,0,0,10,5504218,9.2,2.2,0,0.0,0,0,1,22,4.6,17,3,2,85456,milik_keluarga,0,0,5274655,1,646,Sedang,0
+UD Makmur Pangan,Hendra Rahayu,7050908353690723,Bandung,Minuman,4,0,1,1,1,2,0,0,10,3301114,19.9,-10.1,1,4.1,1,6,1,5,4.4,42,2,1,513680,milik_sendiri,0,1,100000,3,635,Sedang,0
+UD Abadi Food,Tono Kurniawan,8049111900122291,Makassar,Kue & roti,7,0,0,0,1,2,0,0,1,4484464,23.9,-9.6,0,0.0,0,0,1,12,4.6,19,3,1,449441,kontrak,0,1,6293912,1,607,Sedang,0
+UD Karya Pangan,Dian Setiawan,2861327222669193,Palembang,Minuman,4,0,1,1,0,1,0,2,9,3197235,16.4,0.5,1,4.7,30,40,1,7,4.7,31,2,3,454761,kontrak,0,1,2036173,1,709,Rendah,0
+UD Karya Food,Wati Kurniawan,7855428943490706,Semarang,Katering,4,1,0,1,0,4,1,1,11,4029916,32.0,0.5,1,4.2,50,31,1,9,4.9,11,2,0,393716,milik_keluarga,0,0,2872019,1,587,Tinggi,0
+UD Mandiri Olahan,Siti Susanto,4810604511143519,Medan,Makanan ringan,10,1,0,1,0,1,0,1,10,5668233,9.9,18.7,1,4.5,87,17,0,0,0.0,0,3,1,431580,kos,1,1,9561689,1,754,Rendah,0
+UD Makmur Pangan,Tono Kurniawan,1821337502557175,Palembang,Katering,5,1,0,1,0,2,0,1,7,4444211,15.1,-5.0,1,4.6,59,25,0,0,0.0,0,3,3,306250,kontrak,0,1,8805759,2,633,Sedang,0
+UD Jaya Pangan,Mega Utama,1040976925605868,Makassar,Katering,3,0,0,0,0,1,0,3,9,4086209,21.0,11.5,0,0.0,0,0,1,14,4.6,43,3,3,405545,kontrak,1,0,100000,1,618,Sedang,0
+UD Abadi Olahan,Budi Lestari,7212256226896911,Yogyakarta,Kue & roti,5,1,0,1,1,1,0,0,8,7449124,21.9,0.4,1,4.2,56,12,0,0,0.0,0,2,2,221474,milik_keluarga,1,1,163009,3,711,Rendah,0
+UD Barokah Food,Mega Kurniawan,5726903326040399,Surabaya,Makanan ringan,3,1,0,0,0,1,0,0,1,4897353,18.5,-6.2,0,0.0,0,0,0,0,0.0,0,2,0,298590,milik_sendiri,0,1,847028,3,671,Sedang,0
+UD Berkah Olahan,Joko Santoso,7076961872574721,Medan,Makanan ringan,2,1,1,0,1,1,0,0,8,5071916,5.2,0.0,1,5.0,67,13,1,6,4.8,3,3,3,806499,milik_keluarga,0,1,8758673,3,741,Rendah,0
+UD Sumber Snack,Fajar Pratama,3658554121076699,Medan,Makanan ringan,4,0,0,0,0,1,0,2,6,5841406,41.4,10.0,0,0.0,0,0,1,3,4.5,18,3,2,355838,milik_keluarga,0,1,2178373,3,647,Sedang,0
+UD Barokah Pangan,Yuli Lestari,7020374356252831,Bandung,Makanan ringan,7,1,1,0,1,1,0,4,5,4485016,15.6,18.7,1,4.1,76,44,0,0,0.0,0,1,0,54256,milik_sendiri,1,1,100000,2,692,Sedang,0
+UD Abadi Snack,Tono Setiawan,6328073579496275,Medan,Makanan ringan,7,0,1,0,0,1,0,0,17,7726786,19.1,1.2,1,4.4,69,48,1,1,4.3,43,3,1,288711,milik_sendiri,0,1,7697339,3,776,Rendah,0
+UD Berkah Olahan,Eko Saputra,6144166843213707,Makassar,Kue & roti,3,0,1,0,0,2,0,2,13,3690355,24.2,-13.1,1,4.0,47,25,1,15,4.3,20,2,1,191371,milik_sendiri,1,1,5781822,2,641,Sedang,0
+UD Barokah Snack,Hadi Nugroho,9755074252156578,Yogyakarta,Minuman,4,1,1,0,0,4,1,2,3,5556431,11.6,20.0,0,0.0,0,0,1,26,4.7,29,2,3,373882,milik_sendiri,1,1,10752814,1,492,Sangat Tinggi,1
+UD Jaya Food,Nur Hidayat,5091811599836704,Yogyakarta,Katering,2,0,0,1,0,1,0,0,9,3491078,18.6,-8.5,1,4.8,72,59,1,13,4.6,22,2,3,216596,kontrak,1,0,5775794,2,755,Rendah,0
+UD Karya Food,Nur Pratama,5520782980649916,Jakarta,Makanan ringan,10,1,0,1,1,1,0,1,13,11185102,11.2,8.9,1,3.5,23,37,0,0,0.0,0,3,3,318225,kos,0,1,3904351,3,725,Rendah,0
+UD Mulia Pangan,Tono Hidayat,4811675330669994,Yogyakarta,Minuman,10,0,0,0,1,1,0,1,2,6486729,22.2,4.6,1,4.2,1,25,0,0,0.0,0,3,3,239023,kontrak,1,0,4758103,2,681,Sedang,0
+UD Karya Food,Budi Kurniawan,2080152603596043,Palembang,Minuman,4,1,1,0,0,1,0,4,8,4116521,15.2,2.6,0,0.0,0,0,0,0,0.0,0,2,3,379577,milik_sendiri,1,1,2641016,1,619,Sedang,0
+UD Berkah Pangan,Dian Cahyono,7649033804709440,Yogyakarta,Katering,6,0,1,0,0,2,0,0,8,8067226,20.7,-2.3,1,4.5,21,57,1,4,4.6,21,3,3,255890,kos,0,1,7916487,1,632,Sedang,0
+UD Karya Catering,Yuli Utama,5668116852782247,Bandung,Kue & roti,5,0,1,0,0,2,0,2,2,3408435,7.5,14.3,1,4.2,64,38,1,18,4.7,29,3,3,403532,kos,0,1,8074827,2,692,Sedang,0
+UD Mandiri Food,Lina Lestari,2424181978285098,Yogyakarta,Olahan daging,4,0,1,0,0,1,0,0,9,5786755,9.7,-40.0,1,4.0,32,43,1,17,4.6,32,3,2,642287,milik_keluarga,0,1,100000,3,757,Rendah,0
+UD Abadi Food,Wati Nugroho,9829264231289116,Jakarta,Olahan daging,1,0,1,0,1,1,0,2,12,4130913,4.3,22.0,0,0.0,0,0,1,3,5.0,10,3,3,176838,milik_sendiri,0,1,6827581,1,729,Rendah,0
+UD Makmur Snack,Rizki Permata,1467894658879499,Surabaya,Minuman,3,1,1,0,1,1,0,1,14,5710962,10.9,-8.7,0,0.0,0,0,1,17,4.6,13,1,3,458578,kos,1,1,786793,1,702,Rendah,0
+UD Abadi Snack,Eko Santoso,4543031811935533,Makassar,Sambal & bumbu,5,1,1,1,0,3,0,1,7,7587532,2.0,11.1,1,4.5,30,23,1,22,4.4,47,3,2,50000,milik_keluarga,0,1,11241208,1,699,Sedang,0
+UD Mandiri Snack,Yuli Permata,3866981031738620,Bandung,Sambal & bumbu,5,0,0,0,1,5,1,2,18,7592648,14.9,10.3,1,4.5,14,14,0,0,0.0,0,3,3,315084,kontrak,1,1,8551129,2,513,Tinggi,1
+UD Sumber Catering,Mega Cahyono,4775665455620849,Palembang,Katering,3,1,0,0,0,1,0,2,1,2934996,12.7,24.1,1,4.5,42,6,0,0,0.0,0,2,3,384335,kontrak,1,0,585918,1,698,Sedang,0
+UD Berkah Catering,Budi Rahayu,8186555473521366,Surabaya,Olahan daging,8,1,0,0,1,1,0,2,9,8802300,19.5,8.0,1,4.1,39,25,1,5,3.8,31,3,3,237798,milik_sendiri,0,1,4716996,2,707,Rendah,0
+UD Abadi Pangan,Tono Wijaya,8154868575629401,Bandung,Minuman,2,0,0,0,0,3,0,0,2,4468191,18.4,-7.4,1,5.0,57,23,0,0,0.0,0,3,0,81891,milik_keluarga,0,1,6979259,3,629,Sedang,0
+UD Sumber Food,Wati Wijaya,3360683184872028,Semarang,Kue & roti,3,0,0,0,1,4,1,1,8,5030431,30.6,-19.1,0,0.0,0,0,0,0,0.0,0,3,3,344294,kontrak,0,1,2128922,2,492,Sangat Tinggi,1
+UD Karya Catering,Siti Pratama,3743941568805833,Medan,Olahan daging,5,0,1,1,1,1,0,0,5,3864739,43.9,-0.2,1,4.3,39,12,1,7,4.1,21,3,3,579817,milik_keluarga,1,1,100000,1,738,Rendah,0
+UD Mandiri Olahan,Yuli Wulandari,6953139667839997,Semarang,Minuman,5,1,0,0,0,1,0,1,10,6160823,29.4,-24.4,0,0.0,0,0,0,0,0.0,0,1,3,328032,milik_keluarga,0,0,4305358,3,689,Sedang,0
+UD Barokah Pangan,Hendra Hidayat,1283267097747570,Yogyakarta,Minuman,4,0,0,0,1,1,0,1,7,6929930,13.5,-4.4,1,4.1,77,36,1,7,4.7,4,3,1,433786,kontrak,0,1,3521907,2,756,Rendah,0
+UD Mulia Olahan,Dian Wulandari,3148894527737734,Surabaya,Makanan ringan,2,1,1,1,0,1,0,1,4,5317819,13.1,0.6,0,0.0,0,0,0,0,0.0,0,2,1,519032,kontrak,0,1,1257158,1,686,Sedang,0
+UD Karya Snack,Yuli Pratama,1014034634097465,Yogyakarta,Kue & roti,2,0,1,1,0,1,0,1,4,3805218,26.7,-5.3,1,5.0,47,34,0,0,0.0,0,1,3,720721,milik_sendiri,1,1,7708276,1,651,Sedang,0
+UD Mandiri Snack,Tono Pratama,9266078374106737,Medan,Makanan ringan,4,1,0,1,0,1,0,4,15,3159791,2.0,5.6,1,4.1,93,6,0,0,0.0,0,3,3,192156,milik_sendiri,1,0,133136,2,667,Sedang,0
+UD Mandiri Snack,Andi Hidayat,1675018262981706,Bandung,Katering,4,0,1,0,1,1,0,0,9,4449173,14.8,1.5,1,4.4,72,38,1,20,4.5,6,3,3,207633,kos,0,1,3676405,2,780,Rendah,0
+UD Sumber Pangan,Budi Utama,1564719648251255,Medan,Makanan ringan,2,0,0,1,1,1,0,1,1,5044448,15.6,0.1,1,4.2,58,50,0,0,0.0,0,3,3,306164,kos,0,1,4545478,3,681,Sedang,0
+UD Barokah Olahan,Eko Santoso,4832499897533144,Jakarta,Makanan ringan,5,1,0,0,1,3,0,1,10,6386596,23.8,-31.4,1,4.0,44,52,1,12,4.5,19,2,3,442315,kontrak,0,1,4926917,1,650,Sedang,0
+UD Karya Catering,Fajar Susanto,5764273938226172,Medan,Olahan daging,3,0,1,0,1,1,0,0,7,4353637,24.1,-14.4,0,0.0,0,0,1,15,4.1,44,3,3,50000,milik_keluarga,0,1,7392019,1,732,Rendah,0
+UD Mandiri Snack,Andi Saputra,6465640295457443,Jakarta,Sambal & bumbu,5,1,1,0,0,1,0,0,8,3542446,10.6,14.6,0,0.0,0,0,1,20,5.0,1,3,0,448063,milik_sendiri,0,1,3279891,1,753,Rendah,0
+UD Karya Catering,Siti Saputra,4568505461446500,Medan,Minuman,6,0,1,0,1,1,0,3,11,5649094,13.9,17.1,1,4.8,57,8,0,0,0.0,0,3,0,372239,kontrak,0,0,100000,2,680,Sedang,0
+UD Mandiri Olahan,Budi Susanto,3332925597748119,Makassar,Kue & roti,2,0,1,0,0,1,0,2,12,3900879,22.5,-22.6,1,4.7,96,40,0,0,0.0,0,3,3,269908,kontrak,0,0,2839668,2,709,Rendah,0
+UD Mulia Catering,Hendra Lestari,4580832672369378,Jakarta,Makanan ringan,1,1,1,0,0,5,1,3,4,4699955,10.0,-7.2,1,4.8,119,33,1,10,4.1,45,3,3,413826,milik_sendiri,0,1,6176989,1,631,Sedang,0
+UD Karya Snack,Budi Permata,5994740870005858,Surabaya,Kue & roti,5,0,0,1,0,1,0,4,7,6120778,30.1,21.1,1,4.0,53,34,1,13,4.6,26,3,3,483447,milik_keluarga,0,1,3567548,1,692,Sedang,0
+UD Barokah Food,Rizki Susanto,1369363440911907,Yogyakarta,Sambal & bumbu,4,0,1,1,1,1,0,0,5,4246611,24.1,-5.8,1,4.7,1,44,1,19,4.5,44,1,3,504203,kos,0,1,3589752,3,735,Rendah,0
+UD Mulia Olahan,Rizki Hidayat,9043826279158768,Palembang,Sambal & bumbu,5,1,1,1,1,2,0,1,10,5611400,19.7,3.3,0,0.0,0,0,0,0,0.0,0,2,0,352214,kontrak,0,1,5578639,3,626,Sedang,0
+UD Makmur Food,Dewi Permata,1844315754399839,Yogyakarta,Makanan ringan,6,1,1,0,0,1,0,1,7,3917065,21.9,26.6,0,0.0,0,0,1,4,4.4,22,3,3,398904,kontrak,0,1,5974130,1,717,Rendah,0
+UD Jaya Pangan,Hendra Hidayat,9697789240007318,Semarang,Katering,6,0,0,1,0,4,1,1,8,8268327,13.3,-0.4,0,0.0,0,0,0,0,0.0,0,3,3,393248,milik_sendiri,0,1,100000,2,484,Sangat Tinggi,1
+UD Sumber Olahan,Agus Saputra,2720450347859679,Yogyakarta,Makanan ringan,8,0,1,0,1,1,0,1,6,6216335,11.7,-2.6,1,3.8,57,35,0,0,0.0,0,1,3,534679,kontrak,0,0,3943947,2,699,Sedang,0
+UD Berkah Olahan,Fajar Wijaya,1264038434254603,Bandung,Olahan daging,4,0,1,1,0,1,0,1,7,4911469,13.8,2.6,0,0.0,0,0,0,0,0.0,0,3,0,407182,kos,0,1,3414357,1,710,Rendah,0
+UD Barokah Catering,Hadi Permata,6222064676556470,Makassar,Minuman,3,0,0,0,1,1,0,1,14,3979022,23.0,32.8,0,0.0,0,0,0,0,0.0,0,3,3,446783,milik_keluarga,1,0,4225358,1,716,Rendah,0
+UD Sejahtera Olahan,Dewi Saputra,8061118391068950,Medan,Katering,3,1,0,1,1,1,0,1,17,5157042,20.0,11.7,1,5.0,95,23,0,0,0.0,0,3,3,483899,milik_keluarga,0,1,100000,1,754,Rendah,0
+UD Abadi Catering,Lina Pratama,3736513666059106,Semarang,Makanan ringan,2,0,1,0,0,3,0,0,9,4519142,13.8,5.3,1,4.3,20,40,0,0,0.0,0,2,3,643784,milik_sendiri,1,1,7969255,1,614,Sedang,0
+UD Sejahtera Catering,Dewi Permata,2780557624301341,Bandung,Kue & roti,4,1,0,1,0,3,0,1,7,5861289,25.5,-2.9,0,0.0,0,0,1,1,4.6,20,3,3,262127,kontrak,0,1,4020171,2,620,Sedang,0
+UD Makmur Snack,Budi Nugroho,4858257316261744,Bandung,Katering,2,1,1,1,1,1,0,1,1,3258058,16.3,13.1,1,4.8,5,55,0,0,0.0,0,3,0,593856,milik_sendiri,0,0,5274977,1,761,Rendah,0
+UD Barokah Snack,Rini Permata,7817236217930323,Jakarta,Katering,7,1,1,0,1,1,0,1,4,5541476,11.1,14.9,1,4.1,38,51,1,14,4.7,27,2,1,720664,milik_sendiri,0,1,9297952,1,768,Rendah,0
+UD Sumber Food,Yuli Kurniawan,6268238623441624,Yogyakarta,Makanan ringan,4,1,1,0,0,3,0,0,7,3501004,20.5,-11.1,1,4.0,74,22,0,0,0.0,0,1,1,271693,kontrak,0,0,5303958,1,603,Sedang,0
+UD Sumber Snack,Hendra Rahayu,5157619815174540,Surabaya,Katering,4,1,1,1,1,4,1,2,5,5622039,7.9,15.3,1,4.1,37,5,0,0,0.0,0,3,3,317481,kontrak,1,0,100000,1,589,Tinggi,0
+UD Mandiri Food,Mega Utama,1284473293315090,Palembang,Kue & roti,3,1,0,0,0,1,0,0,5,2843269,2.0,2.7,1,4.3,33,31,0,0,0.0,0,3,3,285732,milik_sendiri,0,1,3740668,2,756,Rendah,0
+UD Makmur Food,Nur Rahayu,1766016236893795,Surabaya,Sambal & bumbu,1,0,1,1,0,1,0,1,14,3773510,17.9,5.4,0,0.0,0,0,0,0,0.0,0,3,3,448533,kontrak,0,1,6024664,1,666,Sedang,0
+UD Mulia Catering,Rini Lestari,2760919233427900,Semarang,Katering,1,1,1,0,1,1,0,2,8,4535148,11.4,-8.3,0,0.0,0,0,1,10,4.0,39,3,1,70748,kos,1,1,4169886,1,739,Rendah,0
+UD Makmur Catering,Hadi Saputra,3002111233417106,Makassar,Sambal & bumbu,3,1,0,0,1,3,0,1,8,5906995,15.5,-1.0,1,4.8,1,58,0,0,0.0,0,0,3,275075,milik_sendiri,0,1,9120464,3,637,Sedang,0
+UD Karya Catering,Dewi Saputra,9602902622572808,Surabaya,Kue & roti,1,1,0,0,0,1,0,0,5,3357305,8.3,-10.5,1,4.4,66,20,1,17,4.5,44,3,3,308953,kos,0,1,1432113,1,750,Rendah,0
+UD Abadi Snack,Mega Saputra,9595736907278107,Medan,Makanan ringan,4,1,1,0,1,1,0,1,12,4837214,30.1,-11.2,1,4.5,32,33,0,0,0.0,0,2,2,295835,milik_sendiri,0,1,7735367,2,703,Rendah,0
+UD Mulia Olahan,Siti Wulandari,7547375606778590,Surabaya,Minuman,7,1,0,1,0,2,0,1,7,4300239,11.4,10.7,1,4.2,66,16,1,15,4.8,1,2,3,294325,kontrak,0,0,6517202,1,722,Rendah,0
+UD Sejahtera Pangan,Eko Kurniawan,8597073369562675,Semarang,Katering,7,1,1,0,0,1,0,2,5,7387978,13.7,-0.3,1,4.2,78,29,1,10,4.2,15,2,2,276611,milik_keluarga,0,1,4266300,2,675,Sedang,0
+UD Karya Olahan,Fajar Rahayu,4610050978835961,Palembang,Minuman,4,1,0,0,0,1,0,2,1,6285037,21.8,-14.5,1,4.5,80,23,0,0,0.0,0,2,2,466607,kontrak,0,0,4993987,2,641,Sedang,0
+UD Abadi Catering,Sri Cahyono,1023562548289679,Surabaya,Kue & roti,2,0,0,0,1,1,0,1,7,3182896,4.2,37.7,1,4.5,1,24,0,0,0.0,0,3,2,430736,milik_keluarga,0,1,1066934,1,664,Sedang,0
+UD Sumber Catering,Dian Santoso,4750932772416580,Medan,Katering,7,1,0,0,0,1,0,1,5,6090764,3.5,-11.9,1,4.7,24,34,0,0,0.0,0,3,3,605510,milik_sendiri,0,1,3078230,2,714,Rendah,0
+UD Barokah Pangan,Tono Lestari,5464440703029643,Jakarta,Sambal & bumbu,7,1,1,1,0,1,0,0,14,8261964,21.8,21.4,1,4.9,61,7,1,10,4.5,18,3,3,466990,kontrak,1,1,5731352,1,773,Rendah,0
+UD Sejahtera Olahan,Joko Rahayu,1945685457238963,Makassar,Olahan daging,2,1,1,1,0,1,0,0,15,5206785,13.6,-17.1,1,4.1,61,38,0,0,0.0,0,3,2,185361,kontrak,1,1,3552648,3,685,Sedang,0
+UD Karya Pangan,Tono Wulandari,3862553666770388,Semarang,Minuman,5,0,1,0,1,1,0,1,3,4369991,9.0,11.8,1,4.7,112,37,1,7,4.3,29,3,3,324494,kos,1,0,4180716,1,734,Rendah,0
+UD Abadi Olahan,Wati Utama,8773426718199348,Jakarta,Katering,2,1,1,1,0,1,0,1,3,4161826,24.0,1.2,0,0.0,0,0,1,15,4.3,32,3,3,308565,milik_keluarga,1,0,6977329,2,770,Rendah,0
+UD Mulia Food,Rizki Kurniawan,2386032251733135,Jakarta,Minuman,6,1,1,1,1,3,0,1,6,4523967,9.9,-4.4,1,5.0,80,34,1,21,4.6,33,3,3,388285,kos,1,0,100000,1,745,Rendah,0
+UD Sumber Pangan,Lina Utama,2242689144882214,Jakarta,Katering,10,1,0,0,0,2,0,0,4,5452024,15.3,8.0,0,0.0,0,0,1,20,4.8,5,3,2,513987,kos,1,0,5108154,2,667,Sedang,0
+UD Makmur Catering,Sri Cahyono,8116507109744308,Bandung,Makanan ringan,1,1,1,1,0,1,0,0,8,4651137,9.0,5.9,1,4.7,1,22,1,3,4.3,18,2,3,377875,milik_sendiri,0,1,9329615,3,776,Rendah,0
+UD Karya Catering,Agus Permata,6159088835548345,Makassar,Sambal & bumbu,7,1,1,0,0,1,0,1,6,8166639,21.0,-7.2,1,4.0,28,5,0,0,0.0,0,2,3,378273,kontrak,0,1,2869400,2,706,Rendah,0
+UD Barokah Snack,Eko Saputra,8929295589955981,Palembang,Minuman,4,1,0,0,1,1,0,0,9,6040139,31.3,-7.9,0,0.0,0,0,1,9,4.7,36,2,0,351506,kontrak,0,1,267162,1,704,Rendah,0
+UD Abadi Olahan,Joko Hidayat,4919613164098169,Yogyakarta,Olahan daging,8,1,1,1,1,1,0,2,12,4473091,2.0,-18.6,1,5.0,1,42,1,16,4.5,33,3,2,471587,kontrak,0,0,2832719,1,713,Rendah,0
+UD Sumber Snack,Tono Lestari,3291952333511842,Makassar,Olahan daging,3,1,0,0,0,1,0,0,3,5737423,19.1,9.6,1,4.1,1,23,0,0,0.0,0,3,3,264664,milik_keluarga,1,1,100000,1,744,Rendah,0
+UD Sumber Snack,Mega Pratama,1163649188602588,Bandung,Kue & roti,6,1,1,1,0,2,0,1,11,5702611,26.6,-13.8,1,5.0,1,54,1,12,4.2,40,2,2,131448,milik_sendiri,0,0,4677055,1,669,Sedang,0
+UD Barokah Snack,Dian Lestari,7070312239193930,Yogyakarta,Katering,1,0,1,1,0,1,0,3,5,3058706,13.8,5.1,1,4.4,52,15,0,0,0.0,0,1,3,446686,kontrak,0,1,3778917,1,710,Rendah,0
+UD Makmur Olahan,Nur Lestari,7784613673964270,Makassar,Minuman,3,0,1,0,0,1,0,0,16,4667314,6.7,13.9,0,0.0,0,0,1,1,4.3,34,1,0,406275,kontrak,0,0,4956195,1,723,Rendah,0
+UD Abadi Food,Andi Pratama,8628736751123464,Jakarta,Kue & roti,1,0,1,1,0,1,0,1,14,2355789,22.2,8.1,1,4.6,26,59,1,16,4.3,24,3,3,548512,milik_keluarga,0,1,3606293,1,693,Sedang,0
+UD Makmur Pangan,Wati Susanto,6168021777892281,Semarang,Minuman,8,0,0,0,0,2,0,0,7,8437220,28.0,-5.8,1,4.6,27,9,0,0,0.0,0,2,2,50000,milik_keluarga,0,1,4587685,1,622,Sedang,0
+UD Jaya Catering,Wati Permata,1996071063624592,Yogyakarta,Katering,6,1,1,0,0,1,0,1,4,6395688,26.9,18.6,1,3.8,2,43,1,10,4.3,31,2,0,334947,milik_sendiri,0,0,5351451,1,741,Rendah,0
+UD Abadi Olahan,Hadi Cahyono,1893889374760165,Medan,Olahan daging,6,1,1,1,0,2,0,1,3,4495632,21.7,-1.1,1,4.2,31,58,0,0,0.0,0,2,2,366007,milik_sendiri,0,0,407057,1,670,Sedang,0
+UD Berkah Pangan,Yuli Wulandari,3258424483304621,Medan,Makanan ringan,8,1,1,1,0,1,0,1,11,5254100,19.0,-15.0,0,0.0,0,0,0,0,0.0,0,3,3,123368,kontrak,0,1,5038255,1,686,Sedang,0
+UD Berkah Pangan,Budi Hidayat,6267262948426919,Surabaya,Olahan daging,1,0,1,0,1,4,1,1,7,2615896,9.0,0.7,0,0.0,0,0,0,0,0.0,0,3,3,337010,kontrak,0,0,8344621,2,418,Sangat Tinggi,1
+UD Sumber Olahan,Dian Wijaya,1167853320500616,Yogyakarta,Kue & roti,3,0,0,0,0,4,1,3,11,2905208,26.7,13.8,1,4.5,95,25,1,1,4.5,38,3,2,528038,milik_keluarga,0,0,1114833,1,450,Sangat Tinggi,1
+UD Sejahtera Pangan,Joko Susanto,2525786667604762,Semarang,Sambal & bumbu,1,1,1,1,0,1,0,0,16,3745835,26.1,-5.1,1,3.8,1,49,0,0,0.0,0,2,1,662917,kontrak,1,1,4924979,1,796,Rendah,0
+UD Jaya Olahan,Fajar Saputra,4459583901689025,Palembang,Makanan ringan,2,0,0,1,1,1,0,0,4,5089114,6.6,18.2,0,0.0,0,0,0,0,0.0,0,3,3,497361,milik_sendiri,0,1,7884096,1,731,Rendah,0
+UD Sejahtera Snack,Agus Wulandari,6425009756035100,Bandung,Kue & roti,2,1,0,1,0,1,0,2,3,2455994,21.6,-6.6,1,4.8,32,9,1,10,4.7,37,1,3,301329,kontrak,0,1,534864,1,712,Rendah,0
+UD Mandiri Snack,Agus Nugroho,7734114584843685,Jakarta,Katering,3,0,0,0,0,1,0,1,8,2876416,24.5,-4.5,1,3.9,39,55,0,0,0.0,0,1,3,539227,kontrak,1,1,6393563,2,662,Sedang,0
+UD Mandiri Catering,Hadi Utama,6745302939135623,Surabaya,Makanan ringan,2,1,0,0,0,2,0,3,12,4232864,26.8,-10.7,1,4.7,75,48,0,0,0.0,0,3,0,486710,milik_keluarga,0,1,3333927,1,664,Sedang,0
+UD Makmur Snack,Agus Setiawan,5562903947978092,Medan,Kue & roti,1,1,1,0,0,3,0,1,4,4394587,17.3,15.3,1,4.5,31,38,0,0,0.0,0,2,3,277341,milik_sendiri,0,1,7034013,1,639,Sedang,0
+UD Barokah Pangan,Budi Setiawan,1676478310106453,Bandung,Katering,2,1,1,1,0,2,0,2,8,3445564,9.4,4.2,0,0.0,0,0,0,0,0.0,0,3,3,262730,milik_sendiri,0,1,1526628,2,718,Rendah,0
+UD Makmur Pangan,Hendra Rahayu,6526090623182480,Bandung,Olahan daging,1,1,1,0,0,3,0,1,13,3078920,13.0,-9.7,0,0.0,0,0,0,0,0.0,0,0,3,324724,milik_keluarga,1,1,3972834,3,565,Tinggi,0
+UD Abadi Food,Nur Utama,9692734237777222,Jakarta,Sambal & bumbu,8,1,0,0,1,1,0,2,1,7539540,7.9,-0.9,1,4.2,41,23,0,0,0.0,0,1,3,192372,milik_sendiri,0,1,100000,1,671,Sedang,0
+UD Berkah Snack,Tono Hidayat,3974009696585004,Palembang,Katering,5,1,0,1,0,1,0,3,8,4506536,17.5,-40.0,1,4.2,97,49,1,19,4.7,32,3,2,303381,kos,0,1,5311866,1,738,Rendah,0
+UD Berkah Olahan,Eko Saputra,9273289632278307,Palembang,Minuman,8,0,1,0,0,2,0,1,5,4349006,15.5,16.7,1,4.8,60,4,1,17,5.0,21,3,1,423012,kontrak,1,1,5346210,1,627,Sedang,0
+UD Sejahtera Catering,Nur Utama,6220780603038971,Yogyakarta,Katering,3,1,0,1,0,1,0,0,8,5346822,39.5,2.4,1,4.2,28,29,0,0,0.0,0,3,3,505776,kontrak,0,1,5622407,1,718,Rendah,0
+UD Sumber Food,Joko Cahyono,1085343068915474,Medan,Katering,2,1,1,1,0,2,0,0,10,4402079,26.9,-31.1,1,5.0,23,15,0,0,0.0,0,3,3,293172,milik_sendiri,1,1,5474798,1,678,Sedang,0
+UD Sumber Pangan,Joko Hidayat,6376321425492843,Palembang,Sambal & bumbu,6,1,0,1,0,1,0,0,8,6387628,27.7,-16.9,0,0.0,0,0,0,0,0.0,0,3,3,558263,milik_sendiri,0,0,3726773,2,696,Sedang,0
+UD Jaya Olahan,Budi Rahayu,6511532695808166,Semarang,Minuman,2,0,1,0,1,1,0,0,3,4773389,22.7,-1.3,1,4.2,11,54,1,18,4.6,2,3,3,447515,kontrak,0,1,100000,1,718,Rendah,0
+UD Sejahtera Olahan,Rini Susanto,8265960451662537,Palembang,Kue & roti,2,1,0,0,0,5,1,0,5,4560738,14.3,-14.7,1,4.8,19,30,0,0,0.0,0,3,3,454347,milik_sendiri,1,1,6976233,3,519,Tinggi,1
+UD Jaya Snack,Yuli Utama,2925628530748946,Bandung,Kue & roti,2,1,0,1,0,1,0,1,13,3058822,15.2,16.9,1,4.6,32,29,0,0,0.0,0,2,3,212148,kontrak,0,1,3884697,1,745,Rendah,0
+UD Sejahtera Pangan,Nur Pratama,7597234841369725,Jakarta,Katering,1,1,1,1,0,5,1,1,9,3086946,16.2,11.3,1,3.7,53,20,1,21,4.2,14,2,3,621164,milik_sendiri,1,1,5180452,1,597,Tinggi,0
+UD Karya Pangan,Mega Wulandari,9072349172715692,Semarang,Minuman,2,1,1,1,0,5,1,1,11,2803552,19.9,10.4,1,4.0,99,33,0,0,0.0,0,3,2,433004,kos,1,1,3444352,2,597,Tinggi,0
+UD Jaya Snack,Joko Setiawan,3272194058736369,Yogyakarta,Minuman,3,0,1,0,1,3,0,1,9,3167485,21.9,-34.1,0,0.0,0,0,0,0,0.0,0,2,0,300099,milik_keluarga,0,1,9876281,1,594,Tinggi,0
+UD Abadi Food,Sri Wulandari,8358874865372797,Medan,Sambal & bumbu,5,1,1,1,0,2,0,0,11,6275261,18.0,-2.9,1,3.8,58,44,1,27,4.5,34,2,3,273632,milik_sendiri,1,1,2297054,1,637,Sedang,0
+UD Sumber Snack,Tono Utama,3784211437123219,Yogyakarta,Olahan daging,1,1,1,1,0,1,0,0,6,4504080,15.1,-5.5,0,0.0,0,0,1,12,4.2,36,2,2,303432,milik_sendiri,0,0,2181668,1,753,Rendah,0
+UD Sumber Food,Eko Wulandari,4054287683248583,Bandung,Kue & roti,2,0,0,1,0,3,0,0,4,5480744,12.1,-9.3,1,4.7,76,22,0,0,0.0,0,1,2,197249,milik_keluarga,1,1,100000,1,619,Sedang,0
+UD Sejahtera Catering,Fajar Utama,7248785812546430,Semarang,Sambal & bumbu,6,1,0,1,1,1,0,1,11,6616066,4.1,-1.2,1,4.4,1,13,1,7,4.3,9,1,1,498245,kontrak,0,0,4338740,1,723,Rendah,0
+UD Barokah Pangan,Wati Pratama,6248418872338342,Semarang,Makanan ringan,1,1,1,1,0,1,0,0,12,2615483,30.8,-11.9,1,4.3,68,7,0,0,0.0,0,0,1,212611,milik_sendiri,0,0,9575221,1,730,Rendah,0
+UD Berkah Food,Rini Pratama,9105602645006722,Semarang,Kue & roti,3,1,1,1,0,2,0,0,4,3080341,40.1,8.2,1,4.2,42,8,1,6,4.6,30,1,0,393473,kontrak,0,1,4375113,1,736,Rendah,0
+UD Mandiri Catering,Nur Rahayu,7658420099594587,Bandung,Sambal & bumbu,7,0,0,0,1,1,0,1,5,8126825,30.0,16.5,1,3.6,41,28,0,0,0.0,0,2,3,282512,milik_sendiri,0,1,4681346,1,717,Rendah,0
+UD Karya Pangan,Hendra Wulandari,5768295885799928,Bandung,Kue & roti,2,1,0,0,1,1,0,2,7,4252020,5.4,15.2,1,3.7,35,45,1,8,4.8,27,3,3,450619,milik_sendiri,0,1,6919642,3,770,Rendah,0
+UD Makmur Snack,Dewi Utama,7619878094767611,Yogyakarta,Olahan daging,1,0,1,0,0,1,0,0,14,3831198,25.9,2.9,0,0.0,0,0,1,8,4.4,44,2,3,471005,milik_keluarga,1,1,4486289,1,716,Rendah,0
+UD Sumber Olahan,Eko Saputra,2246228066622872,Surabaya,Makanan ringan,3,1,0,0,0,1,0,1,10,5513263,28.2,35.0,0,0.0,0,0,1,19,4.7,35,3,3,253414,kos,1,0,7597868,1,737,Rendah,0
+UD Jaya Food,Lina Susanto,9025573863670688,Yogyakarta,Olahan daging,2,1,1,0,0,3,0,1,2,4650487,14.0,22.1,1,4.2,70,25,1,9,4.9,13,3,3,344918,kos,0,1,8043227,3,697,Sedang,0
+UD Sumber Food,Hendra Utama,9325113077544052,Medan,Makanan ringan,4,0,1,0,0,1,0,2,7,6337833,22.9,3.5,1,4.8,45,56,1,9,4.1,15,3,0,133491,milik_sendiri,0,1,2221024,2,711,Rendah,0
+UD Sumber Food,Joko Pratama,7122655419140153,Jakarta,Katering,6,0,1,0,0,4,1,3,7,3869826,13.4,-2.2,1,4.6,35,16,0,0,0.0,0,3,3,605081,milik_sendiri,1,0,100000,1,502,Tinggi,1
+UD Berkah Pangan,Mega Saputra,9037618882687660,Semarang,Sambal & bumbu,1,1,1,0,0,2,0,0,3,4193057,33.3,25.1,1,4.6,58,10,0,0,0.0,0,2,2,510200,milik_keluarga,0,0,6068769,1,678,Sedang,0
+UD Abadi Snack,Sri Permata,3808837985163436,Surabaya,Makanan ringan,4,0,1,1,0,3,0,0,7,6403411,21.7,20.1,1,3.8,48,11,1,16,5.0,45,0,3,140669,milik_sendiri,0,1,4967894,2,640,Sedang,0
+UD Mulia Olahan,Rini Rahayu,4526392874242862,Jakarta,Olahan daging,3,0,0,1,0,1,0,3,6,3730086,8.8,-16.2,0,0.0,0,0,1,7,4.3,23,3,3,219964,kontrak,0,0,862419,1,689,Sedang,0
+UD Barokah Snack,Hendra Pratama,1550391655452751,Surabaya,Kue & roti,1,1,0,0,0,2,0,1,6,3893252,24.7,21.3,1,4.9,118,12,0,0,0.0,0,1,3,329777,milik_sendiri,0,1,1965886,2,624,Sedang,0
+UD Mandiri Snack,Nur Wulandari,7592078691003604,Palembang,Makanan ringan,4,1,0,1,1,1,0,1,6,4256648,28.6,2.7,1,3.6,67,31,1,12,4.6,40,3,3,355814,kontrak,0,1,1956570,3,698,Sedang,0
+UD Mandiri Catering,Lina Pratama,6331303902423803,Palembang,Sambal & bumbu,2,1,1,0,0,3,0,1,13,5465507,20.0,-7.9,1,4.3,48,14,1,14,4.3,3,3,3,247092,milik_sendiri,1,1,4442374,1,664,Sedang,0
+UD Jaya Food,Budi Utama,2219239222703779,Makassar,Makanan ringan,3,1,1,0,0,1,0,1,6,2820324,22.8,-24.7,1,4.3,29,51,1,5,4.5,34,2,3,178260,milik_sendiri,0,1,6992155,1,770,Rendah,0
+UD Mandiri Catering,Eko Wijaya,3644199602550418,Palembang,Minuman,1,0,0,0,0,4,1,3,8,3723419,17.3,1.0,1,4.2,73,44,1,17,4.0,19,3,0,409254,milik_keluarga,0,1,7160119,2,503,Tinggi,1
+UD Berkah Olahan,Agus Santoso,2185355463110072,Yogyakarta,Kue & roti,3,0,1,0,1,5,1,4,7,3299412,6.7,4.8,1,4.5,21,32,0,0,0.0,0,3,3,610922,kontrak,1,1,6372469,1,516,Tinggi,1
+UD Sumber Olahan,Siti Setiawan,3741705972193326,Palembang,Sambal & bumbu,2,1,1,1,0,1,0,2,5,4679104,16.5,28.8,1,4.1,18,50,0,0,0.0,0,0,3,358199,milik_sendiri,0,1,3123737,1,714,Rendah,0
+UD Makmur Pangan,Rini Utama,1075764154289456,Bandung,Sambal & bumbu,6,1,1,1,0,1,0,0,8,4444273,23.2,19.4,1,4.6,95,53,0,0,0.0,0,2,2,306243,kos,0,1,10660337,1,720,Rendah,0
+UD Abadi Catering,Rizki Cahyono,9046283191481486,Semarang,Katering,1,0,0,0,0,2,0,2,8,2759073,16.7,-3.7,1,4.5,45,17,0,0,0.0,0,3,2,290474,milik_sendiri,0,1,4099661,2,625,Sedang,0
+UD Makmur Snack,Joko Rahayu,9107382113488384,Yogyakarta,Olahan daging,3,1,1,0,0,1,0,0,8,4479734,26.0,10.8,0,0.0,0,0,1,11,5.0,7,3,3,185491,kontrak,0,0,2833571,2,665,Sedang,0
+UD Abadi Snack,Budi Permata,3152245465034293,Jakarta,Katering,3,0,1,0,0,3,0,0,4,5993405,14.1,17.4,1,3.8,45,1,1,25,4.1,41,2,0,249202,kontrak,0,1,100000,3,580,Tinggi,0
+UD Barokah Catering,Rini Hidayat,7086301021048066,Makassar,Sambal & bumbu,5,1,0,0,0,1,0,3,7,4231543,14.7,6.3,1,4.4,70,29,1,13,5.0,12,2,0,520416,milik_sendiri,0,1,2957380,2,742,Rendah,0
+UD Berkah Catering,Joko Hidayat,6148530787394006,Makassar,Kue & roti,4,0,1,0,0,1,0,0,11,3576960,26.3,-3.8,0,0.0,0,0,1,6,4.7,14,3,3,50000,kontrak,0,0,5316320,1,730,Rendah,0
+UD Berkah Olahan,Dian Wijaya,1668197763029962,Makassar,Makanan ringan,5,1,1,0,1,5,1,0,7,6639498,20.2,-3.0,1,4.3,74,4,0,0,0.0,0,3,2,360515,kos,0,0,100000,2,524,Tinggi,1
+UD Barokah Food,Siti Pratama,4716400664118601,Jakarta,Makanan ringan,5,0,1,1,0,2,0,0,8,5502725,13.9,10.8,1,3.9,7,23,0,0,0.0,0,3,3,354193,milik_keluarga,0,1,1137666,1,702,Rendah,0
+UD Mulia Food,Joko Rahayu,4987787188546319,Jakarta,Kue & roti,7,1,1,1,0,3,0,2,8,8641282,28.3,11.2,1,4.9,73,28,0,0,0.0,0,3,3,367759,kontrak,1,1,2597976,2,639,Sedang,0
+UD Abadi Olahan,Andi Kurniawan,3343915671740773,Jakarta,Sambal & bumbu,2,1,0,0,1,1,0,1,9,2869166,11.1,0.6,1,4.5,39,16,0,0,0.0,0,2,3,459112,milik_sendiri,0,0,1673830,1,717,Rendah,0
+UD Berkah Catering,Joko Rahayu,2666632452955543,Jakarta,Makanan ringan,4,1,1,1,0,2,0,1,10,5583711,10.7,-34.3,1,3.9,47,12,1,20,4.9,24,3,2,359174,milik_sendiri,0,0,1426384,1,675,Sedang,0
+UD Barokah Olahan,Mega Cahyono,1284341161546100,Makassar,Makanan ringan,6,0,1,0,0,1,0,0,7,4717819,2.0,-14.4,0,0.0,0,0,0,0,0.0,0,3,3,281906,kontrak,1,1,7373842,2,628,Sedang,0
+UD Berkah Olahan,Siti Wijaya,1690524095784057,Makassar,Makanan ringan,10,0,0,0,0,2,0,2,4,5803266,12.5,14.3,0,0.0,0,0,0,0,0.0,0,3,3,251506,milik_sendiri,0,1,100000,1,578,Tinggi,0
+UD Barokah Snack,Rizki Saputra,3451205038529187,Surabaya,Olahan daging,7,1,0,0,0,2,0,2,3,7453832,31.1,-27.0,1,4.4,55,45,0,0,0.0,0,2,2,544751,kontrak,0,1,4526109,2,610,Sedang,0
+UD Mandiri Pangan,Mega Pratama,6893766244568711,Yogyakarta,Olahan daging,3,1,0,1,1,1,0,0,12,4837264,2.0,22.8,1,4.4,1,17,1,7,4.2,4,1,2,506157,kontrak,0,1,5557235,2,757,Rendah,0
+UD Mulia Pangan,Andi Susanto,6993133925571899,Semarang,Minuman,2,1,1,1,1,1,0,1,11,4815447,8.5,20.5,1,5.0,43,40,0,0,0.0,0,3,3,781645,milik_sendiri,1,1,2547733,1,776,Rendah,0
+UD Mulia Olahan,Dewi Setiawan,3951850560356891,Palembang,Katering,3,0,1,1,0,1,0,0,10,3814065,22.4,5.6,1,4.0,21,13,0,0,0.0,0,2,0,307851,milik_sendiri,0,1,3319152,1,670,Sedang,0
+UD Makmur Pangan,Tono Permata,2806340238316388,Palembang,Kue & roti,5,1,0,0,0,2,0,4,11,5271075,2.0,14.0,1,5.0,66,52,0,0,0.0,0,3,2,254268,kontrak,0,1,3878359,3,580,Tinggi,0
+UD Abadi Olahan,Hadi Saputra,6049130309915363,Bandung,Kue & roti,3,1,0,1,1,1,0,1,7,4159698,12.9,12.9,1,4.8,74,58,1,23,4.0,24,1,1,417975,milik_sendiri,0,0,5902918,1,741,Rendah,0
+UD Sumber Olahan,Hadi Susanto,7841983633430426,Makassar,Kue & roti,3,1,1,0,1,2,0,3,5,6242722,29.4,3.2,0,0.0,0,0,0,0,0.0,0,2,0,414352,milik_keluarga,0,1,8592073,2,647,Sedang,0
