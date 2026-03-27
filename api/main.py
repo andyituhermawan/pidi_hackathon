@@ -14,52 +14,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# FIX #2: Bungkus load model dengan error handling agar server tidak crash saat startup
+# FIX: Gunakan path absolut agar file .pkl terbaca di Vercel
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "best_model.pkl")
+
 try:
-    model = pickle.load(open("best_model.pkl", "rb"))
+    with open(MODEL_PATH, "rb") as f:
+        model = pickle.load(f)
 except FileNotFoundError:
-    raise RuntimeError("Model file 'best_model.pkl' tidak ditemukan! Pastikan file ada di direktori yang sama.")
+    model = None
+    print(f"ERROR: File {MODEL_PATH} tidak ditemukan!")
 
-
-@app.get("/")
-def home():
-    return {"message": "API jalan"}
-
-
-def build_df(data):
-    return pd.DataFrame([{
-        "qris_avg_transaksi_per_hari": data.get("transaksi", 0),
-        "qris_avg_pendapatan_bulan": data.get("pendapatan", 0),
-        "qris_tren_6bulan_pct": data.get("growth", 0),
-        "qris_volatilitas_pct": data.get("volatilitas", 0),
-        "jumlah_pinjaman_aktif": data.get("pinjaman", 0),
-        "memiliki_nib": 1 if data.get("nib") == "Aktif" else 0,
-        "ojol_bulan_aktif": data.get("ojol_bulan_aktif", 0),
-        "memiliki_npwp": data.get("memiliki_npwp", 0),
-        "aktif_marketplace": data.get("aktif_marketplace", 0),
-        "slik_kolektibilitas": data.get("slik_kolektibilitas", 0),
-        "memiliki_kendaraan_roda4": data.get("memiliki_kendaraan_roda4", 0),
-        "marketplace_order_per_bulan": data.get("marketplace_order_per_bulan", 0),
-        "avg_tagihan_listrik_bulan": data.get("avg_tagihan_listrik_bulan", 0),
-        "memiliki_kendaraan_roda2": data.get("memiliki_kendaraan_roda2", 0),
-        "saldo_rata_rata_bulan": data.get("saldo_rata_rata_bulan", 0),
-        "memiliki_pirt": data.get("memiliki_pirt", 0),
-        "pernah_kredit_macet": data.get("pernah_kredit_macet", 0),
-        "aktif_ojol": data.get("aktif_ojol", 0),
-        "ojol_avg_order_per_hari": data.get("ojol_avg_order_per_hari", 0),
-        "marketplace_lama_bergabung_bulan": data.get("marketplace_lama_bergabung_bulan", 0),
-        "marketplace_rating": data.get("marketplace_rating", 0),
-        "konsistensi_bayar_listrik": data.get("konsistensi_bayar_listrik", 0),
-        "lama_usaha_tahun": data.get("lama_usaha_tahun", 0),
-        "jumlah_rekening_bank": data.get("jumlah_rekening_bank", 0),
-        "sertifikasi_halal": data.get("sertifikasi_halal", 0),
-        "ojol_rating": data.get("ojol_rating", 0),
-        "konsistensi_bayar_air": data.get("konsistensi_bayar_air", 0),
-        "kota": str(data.get("kota", "Jakarta")),
-        "kategori_usaha": str(data.get("kategori_usaha", "Minuman")),
-        "status_kepemilikan_rumah": str(data.get("status_kepemilikan_rumah", "milik_sendiri")),
-    }])
-
+@app.get("/api/health")
+def health():
+    return {"status": "ok", "model_loaded": model is not None}
 
 @app.post("/predict")
 def predict(data: dict):
