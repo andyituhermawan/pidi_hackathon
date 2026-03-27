@@ -743,7 +743,6 @@ function ScreenPortfolio() {
   );
 }
 
-
 // ─── MAIN ─────────────────────────────────────────────────────────────────────
 export default function App() {
   const [screen, setScreen] = useState("onboarding");
