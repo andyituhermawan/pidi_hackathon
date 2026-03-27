@@ -1,0 +1,8 @@
+fastapi==0.135.2
+uvicorn[standard]==0.42.0
+gunicorn
+scikit-learn==1.7.1
+imbalanced-learn==0.14.0
+pandas==2.3.3
+numpy==1.26.4
+python-multipart
